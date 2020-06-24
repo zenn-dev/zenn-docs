@@ -6,13 +6,7 @@ topics: ["zenn"]
 published: true
 ---
 
-```swift
-struct Animal {
-    let nickName : String?
-}
-```
 
-todo
 
 次のような流れで、編集を行います。
 
@@ -36,12 +30,6 @@ $ npm install zenn-cli
 
 これでディレクトリにCLIがインストールされました。
 
-## node_modulesを.gitignoreに追加
-`node_modules`がコミットされてしまわないように`.gitignore`に指定しておきましょう。
-
-```shell
-$ touch .gitignore && echo "node_modules/" >> .gitignore
-```
 
 ## CLIを動かすための初期化
 
@@ -51,7 +39,7 @@ $ touch .gitignore && echo "node_modules/" >> .gitignore
 $ npx zenn init
 ```
 
-`articles`と`books`というディレクトリが作成されているはずです。この中にマークダウンファイルを入れていくことになります。
+`.gitignore`に加えて、`articles`と`books`というディレクトリが作成されているはずです。この中にマークダウンファイルを入れていくことになります。
 
 # 3. 記事（article）の新規作成
 ここまでで準備は完了です。早速記事を作成してみましょう。
