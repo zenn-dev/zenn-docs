@@ -1,9 +1,9 @@
 ---
 title: "Zennのマークダウン・エディターの使い方"
-emoji: "✍️"
+emoji: "👩‍💻"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["マークダウン", "zenn"]
-published: true
+published: false
 ---
 このページではZennのマークダウンエディターの使い方を解説します。
 
