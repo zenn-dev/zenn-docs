@@ -1,10 +1,39 @@
 ---
-title: "Zennでマークダウンコンテンツを管理する"
+title: "GitHubリポジトリでZennのコンテンツを管理する"
 emoji: "📝"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]
 published: false
 ---
+
+Zennには[オンラインエディター](/zenn/articles/editor-guide)が用意されていますが、GitHubリポジトリと連携すれば**ローカルのテキストエディター**で執筆することもできます。
+
+# GitHubリポジトリでのコンテンツ管理のイメージ
+
+GitHubリポジトリと連携した場合、コンテンツの作成や更新はすべてリポジトリ内で行います。
+
+## コンテンツの作成
+コンテンツを作成するときは、ローカルのテキストエディターなどで`.md`ファイルを作成・編集し、リモートリポジトリ（GitHub）へプッシュします。プッシュやプルリクエストのマージによりブランチに変更があると、自動でzenn.devへの同期が開始されます。
+
+:::details 同期するブランチの指定
+GitHub連携が完了している場合、下記のページからブランチを変更できます。
+[デプロイ設定 →](/dashboard/deploys)
+:::
+
+## エラーが開始
+
+
+![](https://storage.googleapis.com/zenn-user-upload/37ee1mlki719c8i5uc6fjf2w86zs)
+
+GitHubリポジトリでコンテンツを管理した場合、
+
+![](https://storage.googleapis.com/zenn-user-upload/xjr1cmm572jkte6ygy0dl8ie33jn)
+
+
+![VS code](https://storage.googleapis.com/zenn-user-upload/n0tufad6ruthuy0j2hxhffg87hpz =660x)
+
+![](https://storage.googleapis.com/zenn-user-upload/ve1rve2rb3yvvcat974fxt2rftc1)
+
 
 次のような流れで、編集を行います。
 

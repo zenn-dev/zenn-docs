@@ -3,7 +3,7 @@ title: "ZennのMarkdown記法"
 emoji: "👩‍💻"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Markdown", "zenn"]
-published: false
+published: true
 ---
 
 このページではZennのマークダウン記法を一覧で紹介します。
@@ -206,7 +206,8 @@ $$
 ```
 @[youtube](動画のID)
 ```
-URLに含まれる英数字の組み合わせを入力します。
+URLに含まれる英数字の組み合わせを入力します。たとえばURLが`https://youtube.com/watch?v=ApXoWvfEYVU`の場合、`@[youtube](ApXoWvfEYVU)`と指定します。
+
 
 ### CodePen
 
