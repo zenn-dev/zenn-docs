@@ -1,122 +1,14 @@
 ---
-title: "Zennのエディターガイド"
+title: "ZennのMarkdown記法"
 emoji: "👩‍💻"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Markdown", "zenn"]
 published: false
 ---
 
-このページではZennのマークダウン記法とエディターの使い方を解説します。 
+このページではZennのマークダウン記法を一覧で紹介します。
 
-# Zennの執筆方法は2種類
-
-Zennのコンテンツは次のいずれかの方法で作成します。
-
-## 1. オンラインエディター
-
-![Zennのエディター](https://storage.googleapis.com/zenn-user-upload/tb04ri7f5v9mdccsehi5jppvfpm3)
-
-
-ブラウザ上で動くエディターです。Zennにログインした状態で使用します。
-
-## 2. ローカルのテキストエディター + CLI
-
-![VS code](https://storage.googleapis.com/zenn-user-upload/n0tufad6ruthuy0j2hxhffg87hpz =660x)
-
-![](https://storage.googleapis.com/zenn-user-upload/ve1rve2rb3yvvcat974fxt2rftc1)
-
-
-自分の好きな環境で執筆したい方は**GitHubリポジトリとの連携機能**（ベータ版）を利用することをおすすめします。リポジトリ連携をすると、特定のブランチに変更があったときに自動でコンテンツがzenn.devに反映されるようになります。
-
-📘 **[ZennとGitHubリポジトリを連携する →](/zenn/articles/connect-to-github)**
-
-
-リポジトリ連携時には、ローカルでマークダウンファイルを作成し、好きなテキストエディターで編集を行います。Zenn CLIを使うことでブラウザでプレビューしながらの執筆が可能です。
-
-📘 **[Zenn CLIを導入する →](/zenn/articles/how-to-use-zenn-cli)**
-
-
-
-
-
-# ショートカット
-Zennのエディターでは以下のショートカットを使うことができます。`Ctrl`と記載している部分はMacでは`⌘(Command)`キーを使用してください。
-
-::: message
-タイトルフィールド
-:::
-
-# Zennのマークダウン記法
-
-## プレビュー
-```
-Ctrl + P
-```
-マークダウンがどのように表示されるかをチェックできます。もう一度ショートカットを実行すると、エディターに戻ります。
-
-## 内容の保存
-```
-Ctrl + S
-```
-
-## 埋め込み
-```
-Ctrl + I
-```
-👇このようなモーダルが開きます。
-![](https://storage.googleapis.com/zenn-user-upload/3eczstjiajdxbqujkloer616mj6r =400x)
-ツイートやYouTube、CodePen、SpeakerDeckなどを挿入できます。
-
-## その他のショートカット
-- `Ctrl + B`：選択部分を**太字**に
-- `Ctrl + Z`：1つ戻る
-- `Ctrl + K`：テキストリンクの挿入
-- `Ctrl + alt + C`：コードブロックの挿入
-- `Ctrl + L`：リストの挿入
-- `Ctrl + alt + L`：番号付きリストの挿入
-
-👆Macでは`alt`の代わりに`option`キーを使います。
-
-
-# 📝 マークダウンの基本
-
-## コードブロック
-> \```
-> 
-> \```
-
-言語を指定するとシンタックスハイライトが適用されます。
-
-> \```js
-> 
-> \```
-
-```js
-const var = () => {
-  console.log("hello")
-}
-```
-
-## 数式
-`math`を指定されたコードブロックでは、TeX記法を使用できます。
-
-> \```math
-> 
-> \```
-
-
-```math
-x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
-```
-
-また、`$$`で数式を挟むことでも、数式ブロックを作ることもできます。
-
-### インラインで数式を書く
-`$a\ne0$`というよう`$`で挟むことで、文中に数式を含めることができます。
-たとえば$a\ne0$のようなイメージです。
-
-
-## 見出し
+# 見出し
 ```
 # 見出し1
 ## 見出し2
@@ -124,7 +16,7 @@ x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
 #### 見出し4
 ```
 
-## リスト
+# リスト
 ```
 - Hello!
 - Hola!
@@ -138,7 +30,8 @@ x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
 
 リストのアイテムには`*`もしくは`-`を使います。
 
-## 番号付きリスト
+
+### 番号付きリスト
 ```
 1. First
 2. Second
@@ -147,20 +40,24 @@ x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
 2. Second
 
 
-## インラインスタイル
+
+# 画像
 ```
-*イタリック*
-**太字**
-~~打ち消し線~~
-インラインで`code`を挿入する
+![altテキスト](https://画像のURL)
 ```
-*イタリック*
-**太字**
-~~打ち消し線~~
-インラインで`code`を挿入する
+![altテキスト](https://storage.googleapis.com/zenn-user-upload/gxnwu3br83nsbqs873uibiy6fd43)
+
+### 画像の横幅を指定する
+
+画像の表示が大きすぎる場合は、URLの後に半角スペースを空けて`=○○x`と記述すると、画像の幅をpx単位で指定できます。
+
+```
+![altテキスト](https://画像のURL =250x)
+```
+![altテキスト](https://storage.googleapis.com/zenn-user-upload/gxnwu3br83nsbqs873uibiy6fd43 =250x)
 
 
-## リンクテキスト
+# テキストリンク
 ```
 [アンカーテキスト](リンクのURL)
 ```
@@ -168,21 +65,7 @@ x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
 `Ctrl + K`のショートカットでも挿入できます。
 
 
-## 画像の挿入
-```
-![altテキスト](https://画像のURL)
-```
-![altテキスト](https://storage.googleapis.com/zenn-user-upload/gxnwu3br83nsbqs873uibiy6fd43)
-
-### 画像の横幅を指定する
-```
-![altテキスト](https://画像のURL =250x)
-```
-![altテキスト](https://storage.googleapis.com/zenn-user-upload/gxnwu3br83nsbqs873uibiy6fd43 =250x)
-画像の表示が大きすぎる場合は、URLの後に半角スペースを空けて`=○○x`と記述すると、画像の幅を指定できます。
-
-
-## テーブル
+# テーブル
 ```
 | Head | Head | Head |
 | ---- | ---- | ---- |
@@ -195,7 +78,47 @@ x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
 | Text | Text | Text |
 
 
-## 引用
+
+# コードブロック
+コードは「```」で挟むことでブロックとして挿入できます。以下のように言語を指定するとコードへ装飾（シンタックスハイライト）が適用されます。
+
+> \```js
+> 
+> \```
+
+```js
+const great = () => {
+  console.log("Awesome")
+}
+```
+
+# 数式
+
+Zennでは**KaTeX**による数式表示に対応しています。
+
+### 数式のブロックを挿入する
+`$$`で記述を挟むことで、数式のブロックが挿入されます。たとえば
+
+
+```
+$$
+e^{i\theta} = \cos\theta + i\sin\theta
+$$
+```
+は以下のように表示されます。
+
+$$
+e^{i\theta} = \cos\theta + i\sin\theta
+$$
+
+:::message
+`$$`の前後は空の行でないと正しく埋め込まれないことがあります。
+:::
+
+### インラインで数式を挿入する
+`$a\ne0$`というよう`$`ひとつで挟むことで、インラインで数式を含めることができます。たとえば$a\ne0$のようなイメージです。
+
+# 引用
 ```
 > 引用文
 > 引用文
@@ -203,8 +126,125 @@ x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
 > 引用文
 > 引用文
 
-## 区切り線
+# 区切り線
 ```
 -----
 ```
 -----
+
+
+
+
+# インラインスタイル
+```
+*イタリック*
+**太字**
+~~打ち消し線~~
+インラインで`code`を挿入する
+```
+*イタリック*
+**太字**
+~~打ち消し線~~
+インラインで`code`を挿入する
+
+
+
+# Zenn独自の記法
+
+### メッセージ
+
+```
+:::message
+メッセージをここに
+:::
+```
+
+
+:::message
+メッセージをここに
+:::
+
+```
+:::message alert
+警告メッセージをここに
+:::
+```
+
+:::message alert
+警告メッセージをここに
+:::
+
+
+### アコーディオン（トグル）
+
+```
+:::details タイトル
+表示したい内容
+:::
+```
+
+:::details タイトル
+表示したい内容
+:::
+
+分かりづらいのですが「detail」ではなく「details」です。
+
+# 外部コンテンツの埋め込み
+
+
+### Twitter
+
+```
+@[tweet](ツイートページのURL)
+```
+
+「twitter」ではなく「tweet」であることにご注意ください。
+
+
+### YouTube
+
+```
+@[youtube](動画のID)
+```
+URLに含まれる英数字の組み合わせを入力します。
+
+### CodePen
+
+```
+@[codepen](ページのURL)
+```
+
+デフォルトの表示タブは`ページのURL?default-tab=html,css`のようにクエリを指定することで変更できます。
+
+
+
+### SlideShare
+```
+@[slideshare](スライドのkey)
+```
+SlideShareの埋め込みiframeに含まれる`...embed_code/key/○○...`の`◯◯`の部分を入力します。
+
+
+### SpeakerDeck
+```
+@[speakerdeck](スライドのID)
+```
+SpeakerDeckで取得した埋め込みコードに含まれる`data-id`の値を入力します。
+
+### JSFiddle
+
+```
+@[jsfiddle](ページのURL)
+```
+
+### オンラインエディターではモーダルから挿入可能
+
+オンラインのエディターでは「+」ボタンを押すことで、外部コンテンツ埋め込み用のモーダルを表示できます。
+
+![](https://storage.googleapis.com/zenn-user-upload/t87wf3d7xgfv7cabv4a9lfr1t79q)
+
+
+
+---
+
+今後[CodeSandbox](https://codesandbox.io)などの埋め込みにも対応する予定です。
