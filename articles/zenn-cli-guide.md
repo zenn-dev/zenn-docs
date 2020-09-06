@@ -3,7 +3,7 @@ title: "Zenn CLIの使い方"
 emoji: "🔨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]
-published: false
+published: true
 ---
 
 このページではZenn CLIの使い方とコマンドの一覧を紹介します。まだインストールしていない方は下記のリンク先をご覧ください。

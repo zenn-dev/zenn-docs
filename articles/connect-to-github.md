@@ -3,14 +3,14 @@ title: "GitHubリポジトリでZennのコンテンツを管理する"
 emoji: "📝"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]
-published: false
+published: true
 ---
 
 :::message alert
 この機能はベータ版で、仕様が変更される可能性があります
 :::
 
-Zennには[オンラインエディター](/zenn/articles/editor-guide)が用意されていますが、GitHubリポジトリと連携すれば**ローカルのテキストエディター**で執筆することもできます。
+Zennには[オンラインエディター](/zenn/articles/editor-guide)が用意されていますが、GitHubリポジトリと連携すればローカルのテキストエディターで執筆することもできます。
 
 # GitHub連携時のイメージ
 
@@ -34,14 +34,14 @@ zenn.devにまだ存在しない名前のファイルが見つかると新しい
 
 ![](https://storage.googleapis.com/zenn-user-upload/37ee1mlki719c8i5uc6fjf2w86zs)
 
-デプロイ履歴は[ダッシュボード](/dashboard/deploys)から見ることができます。デプロイ時に発生したエラーもここでチェックします。
+デプロイ履歴は[ダッシュボード](/dashboard/deploys)から確認できます。デプロイ時に発生したエラーもここでチェックします。
 
 
 ### 内容の更新
 内容を変更するときは`.md`ファイルを編集し、再度プッシュします。変更が加えられた`.md`ファイルのみがzenn.devに同期されます。
 
 ### コンテンツの削除
-安全のため、コンテンツの削除は[ダッシュボード](/dashboard)から行う必要があります。
+安全のため、コンテンツの削除は[ダッシュボード](/dashboard)からのみ行うことができます。
 
 ![](https://storage.googleapis.com/zenn-user-upload/xjr1cmm572jkte6ygy0dl8ie33jn)
 
