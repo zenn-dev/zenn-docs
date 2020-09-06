@@ -2,7 +2,7 @@
 title: "ZennのMarkdown記法"
 emoji: "👩‍💻"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["Markdown", "zenn"]
+topics: ["markdown", "zenn"]
 published: true
 ---
 

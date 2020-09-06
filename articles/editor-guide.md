@@ -2,7 +2,7 @@
 title: "Zennのコンテンツ作成ガイド"
 emoji: "👩‍💻"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["Markdown", "zenn"]
+topics: ["zenn"]
 published: true
 ---
 
@@ -46,7 +46,7 @@ Zennのコンテンツは次のいずれかの方法で作成します。
 
 リポジトリ連携時には、ローカルでマークダウンファイルを作成し、好きなテキストエディターで編集を行います。Zenn CLIを使うことでブラウザでプレビューしながらの執筆が可能です。
 
-📘 **[Zenn CLIを導入する →](/zenn/articles/zenn-cli-guide)**
+📘 **[Zenn CLIを導入する →](/zenn/articles/install-zenn-cli)**
 
 
 --- 
