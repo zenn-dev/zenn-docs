@@ -1,6 +1,6 @@
 ---
 title: "Zenn CLIをインストールする"
-emoji: "📝"
+emoji: "💻"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]
 published: true
@@ -75,5 +75,5 @@ $ npm install zenn-cli@latest
 # コンテンツを作成・編集する
 具体的な執筆方法は下記のページをご覧ください。
 
-📝 **[Zenn CLIの使い方 →](/zenn/articles/zenn-cli-guide)**
+📘 **[Zenn CLIの使い方 →](/zenn/articles/zenn-cli-guide)**
 
