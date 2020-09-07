@@ -1,5 +1,5 @@
 ---
-title: "Zenn CLIの使い方"
+title: "Zenn CLIを使ってコンテンツを作成する"
 emoji: "🔨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]
