@@ -10,6 +10,7 @@ published: true
 
 📘 **[Zenn CLIを導入する →](/zenn/articles/install-zenn-cli)**
 
+
 # CLIで記事（article）を管理する
 
 ## ファイルの配置ルール
@@ -21,6 +22,9 @@ published: true
    ├── example-article1.md
    └── example-article2.md
 ```
+
+具体的な例として[Zennのドキュメント用リポジトリ](https://github.com/zenn-dev/zenn-docs
+)を見ると分かりやすいかもしれません。
 
 ## 記事の作成
 以下のコマンドによりマークダウンファイルを簡単に作成できます。
@@ -48,8 +52,6 @@ published: true # 公開設定（falseにすると下書き）
 
 👆 ファイルの上部には`---`に挟まれる形で記事の設定（Front Matter）が含まれています。ここに記事のタイトル（title）やトピックス（topics）などを**yaml形式**で指定することになります。
 
-
-
 コマンド実行時に記事のFront Matterをオプションで指定することもできます。
 
 ```shell
@@ -60,6 +62,9 @@ $ npx zenn new:article --slug 記事のスラッグ --title タイトル --type 
 slugは`a-z0-9`とハイフン`-`の12〜50字の組み合わせにする必要があります
 :::
 
+:::details 本文に画像を挿入するには
+GitHub連携時に本文で画像を使う際は[画像のアップロードページ](/dashboard/uploader)をご利用ください。
+:::
 
 ## プレビューする
 本文の執筆は、ブラウザでプレビューしながら確認できます。ブラウザでプレビューするためには次のコマンドを実行します。
@@ -130,6 +135,11 @@ books
 
 これが1冊の本のファイル構成です。複数の本を作成するためには、同様の構成のディレクトリを複数`books`内に作ることになります。
 
+:::message
+実際の例としては[Zennのドキュメント用リポジトリ](https://github.com/zenn-dev/zenn-docs
+)が参考になるかもしれません。
+:::
+
 ## 本の各ファイルの役割
 
 ### 📄 config.yaml
@@ -158,6 +168,11 @@ title: "チャプターのタイトル"
 
 ここからチャプター本文
 ```
+
+:::details 本文に画像を挿入するには
+GitHub連携時に本文で画像を使う際は[画像のアップロードページ](/dashboard/uploader)をご利用ください。
+:::
+
 
 ## 本の雛形をコマンドで作成する
 
