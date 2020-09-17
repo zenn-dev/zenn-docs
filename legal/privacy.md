@@ -1,4 +1,6 @@
+:::message
 **Zennのプライバシーポリシーの変更履歴は[GitHubリポジトリ](https://github.com/zenn-dev/zenn-docs/commits/master/legal/privacy.md)に公開されています。**
+:::
 
 本サービスは、以下のプライバシーポリシーを定め、個人情報保護法を遵守すると共に、適切なプライバシー情報の保護に努めます。
 
