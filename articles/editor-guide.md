@@ -43,16 +43,16 @@ Zennのコンテンツは次のいずれかの方法で作成します。
 
 自分の好きな環境で執筆したい方は**GitHubリポジトリとの連携機能**（ベータ版）を利用することをおすすめします。リポジトリ連携をすると、特定のブランチに変更があったときに自動でコンテンツがzenn.devに反映されるようになります。
 
-📘 **[ZennとGitHubリポジトリを連携する →](/zenn/articles/connect-to-github)**
+📘 **[ZennとGitHubリポジトリを連携する →](https://zenn.dev/zenn/articles/connect-to-github)**
 
 
 リポジトリ連携時には、ローカルでマークダウンファイルを作成し、好きなテキストエディターで編集を行います。Zenn CLIを使うことでブラウザでプレビューしながらの執筆が可能です。
 
-📘 **[Zenn CLIを導入する →](/zenn/articles/install-zenn-cli)**
+📘 **[Zenn CLIを導入する →](https://zenn.dev/zenn/articles/install-zenn-cli)**
 
 
 --- 
 
 オンラインエディターを使う場合も、CLIを使う場合もマークダウンの書き方は変わりません。具体的な記法は下記のリンク先をご覧ください。
 
-📘 **[Zennのマークダウン記法 →](/zenn/articles/markdown-guide)**
+📘 **[Zennのマークダウン記法 →](https://zenn.dev/zenn/articles/markdown-guide)**

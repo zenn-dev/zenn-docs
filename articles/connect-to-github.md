@@ -12,7 +12,7 @@ published: true
 この機能はベータ版で、仕様が変更される可能性があります
 :::
 
-Zennには[オンラインエディター](/zenn/articles/editor-guide)が用意されていますが、GitHubリポジトリと連携すればローカルのテキストエディターで執筆することもできます。
+Zennには[オンラインエディター](https://zenn.dev/zenn/articles/editor-guide)が用意されていますが、GitHubリポジトリと連携すればローカルのテキストエディターで執筆することもできます。
 
 # GitHub連携時のイメージ
 
@@ -24,7 +24,7 @@ GitHub連携が完了している場合、下記のページからブランチ�
 :::
 
 ### コンテンツの作成
-ローカルのテキストエディターなどでマークダウンファイルを作成し、編集します。ファイルの作成やプレビューには[Zenn CLI](/zenn/articles/install-zenn-cli)を使用できます。
+ローカルのテキストエディターなどでマークダウンファイルを作成し、編集します。ファイルの作成やプレビューには[Zenn CLI](https://zenn.dev/zenn/articles/install-zenn-cli)を使用できます。
 
 編集が完了したらリモートリポジトリ（GitHub）へプッシュします。登録したブランチへのプッシュやプルリクエストのマージによりデプロイが開始されます。
 
@@ -85,5 +85,5 @@ Zennにログインしたうえで、ダッシュボードの[デプロイ管理
 # ファイルの作成やプレビューはCLIで
 ローカルでのファイルの作成や、マークダウンのプレビューにはZenn CLIを使います。具体的な使い方は下記のページをご覧ください。
 
-📘 **[Zenn CLIの導入手順 →](/zenn/articles/install-zenn-cli)**
+📘 **[Zenn CLIの導入手順 →](https://zenn.dev/zenn/articles/install-zenn-cli)**
 

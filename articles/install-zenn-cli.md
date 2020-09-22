@@ -11,7 +11,7 @@ published: true
 
 ZennとGitHubリポジトリを連携すると、ローカルの好きなエディターで投稿コンテンツの作成・編集ができるようになります。
 
-📘 **[ZennとGitHubリポジトリを連携する →](/zenn/articles/connect-to-github)**
+📘 **[ZennとGitHubリポジトリを連携する →](https://zenn.dev/zenn/articles/connect-to-github)**
 
 ローカルでの執筆時には、スムーズに**マークダウンファイルの作成**したり、コンテンツを**プレビュー**したりするために「Zenn CLI」を導入しましょう。
 
@@ -22,7 +22,7 @@ Zenn CLIのソースコードは[GitHubに公開](https://github.com/zenn-dev/ze
 # Zenn CLIの導入手順
 
 ## 0. 事前準備
-- あらかじめ[ZennとGitHubリポジトリとの連携](/zenn/articles/connect-to-github)を行っておくことをおすすめします。
+- あらかじめ[ZennとGitHubリポジトリとの連携](https://zenn.dev/zenn/articles/connect-to-github)を行っておくことをおすすめします。
 - Zenn CLIはNode.js製です。Node.jsをはじめて使う場合は[インストール](https://nodejs.org/ja/)する必要があります。
 
 ## 1. CLIをインストールする
@@ -74,5 +74,5 @@ $ npm install zenn-cli@latest
 # コンテンツを作成・編集する
 具体的な執筆方法は下記のページをご覧ください。
 
-📘 **[Zenn CLIの使い方 →](/zenn/articles/zenn-cli-guide)**
+📘 **[Zenn CLIの使い方 →](https://zenn.dev/zenn/articles/zenn-cli-guide)**
 

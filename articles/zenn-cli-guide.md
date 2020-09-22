@@ -9,7 +9,7 @@ published: true
 
 このページではZenn CLIの使い方とコマンドの一覧を紹介します。まだインストールしていない方は下記のリンク先をご覧ください。
 
-📘 **[Zenn CLIを導入する →](/zenn/articles/install-zenn-cli)**
+📘 **[Zenn CLIを導入する →](https://zenn.dev/zenn/articles/install-zenn-cli)**
 
 
 # CLIで記事（article）を管理する
@@ -34,7 +34,7 @@ published: true
 $ npx zenn new:article
 ```
 
-`articles/ランダムなslug.md`というファイルが作成されます。slug（スラッグ）はその記事のユニークなIDのようなものです。詳しくは「[Zennのslugとは](/zenn/articles/what-is-slug)」をご覧ください。
+`articles/ランダムなslug.md`というファイルが作成されます。slug（スラッグ）はその記事のユニークなIDのようなものです。詳しくは「[Zennのslugとは](https://zenn.dev/zenn/articles/what-is-slug)」をご覧ください。
 
 
 作成されたファイルの中身は次のようになっています。
