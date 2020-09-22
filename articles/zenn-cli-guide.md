@@ -180,14 +180,14 @@ title: "チャプターのタイトル"
 GitHub連携時に本文で画像を使う際は[画像のアップロードページ](/dashboard/uploader)をご利用ください。
 :::
 
-有料の本でチャプターを無料公開する場合は`is_free: true`を指定してください。 
+有料の本でチャプターを無料公開する場合は`free: true`を指定してください。 
 
 
 
 ```yaml
 ---
 title: "タイトル"
-is_free: true
+free: true
 ---
 ```
 
