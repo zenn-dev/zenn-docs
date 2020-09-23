@@ -62,7 +62,7 @@ $ npx zenn preview
 :::
 
 :::details ホットリロードをOFFにする
-`npx zenn preview --no-watch`のようにすることでファイルの監・自動リロードが無効になります。
+`npx zenn preview --no-watch`のようにすることでファイルの監視と自動リロードが無効になります。
 :::
 
 
