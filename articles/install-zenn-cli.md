@@ -61,6 +61,10 @@ $ npx zenn preview
 `npx zenn preview --port 3333`のようにポート番号を指定することもできます。
 :::
 
+:::details ホットリロードをOFFにする
+`npx zenn preview --no-watch`のようにすることでファイルの監・自動リロードが無効になります。
+:::
+
 
 # CLIをアップデートする
 
