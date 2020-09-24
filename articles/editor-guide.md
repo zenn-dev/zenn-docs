@@ -8,13 +8,13 @@ published: true
 
 
 
-このページではZennで記事や本を作成するときの執筆環境について紹介します。
+このページではZennで記事や本を作成する際の執筆環境について紹介します。
 
 # Zennの執筆方法は2種類
 
 Zennのコンテンツは次のいずれかの方法で作成します。
 
-## 1. オンラインエディター
+## 1. Webエディター
 
 ![Zennのエディター](https://storage.googleapis.com/zenn-user-upload/tb04ri7f5v9mdccsehi5jppvfpm3)
 
