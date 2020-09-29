@@ -24,7 +24,7 @@ https://zenn.dev/ユーザー名/feed
 https://zenn.dev/topics/トピック名/feed
 ```
 
-たとえば[vim](https://zenn.dev/topics/vim/feed)のフィードは[https://zenn.dev/topics/vim/feed](https://zenn.dev/topics/vim/feed)となります。
+たとえばトピック「[vim](https://zenn.dev/topics/vim)」のフィードは[https://zenn.dev/topics/vim/feed](https://zenn.dev/topics/vim/feed)となります。
 トピックページのURLの末尾に`/feed`を足す形になります。
 
 ---
