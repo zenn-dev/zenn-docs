@@ -5,3 +5,12 @@ summary: |-
 topics: ["zenn"]
 published: true
 price: 0 # 有料の場合200〜5000
+chapters:
+  - about
+  - getting-started
+  - add-new-chapter
+  - change-order
+  - set-price
+  - free-chapter
+  - set-cover
+  - viewer
