@@ -1,5 +1,5 @@
 ---
-title: "Zenn CLIで記事・本を管理する"
+title: "Zenn CLIで記事・本を管理する方法"
 emoji: "🔨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]
@@ -107,7 +107,8 @@ Zennと連携したリポジトリの登録ブランチにプッシュされる�
 # CLIで本（book）を管理する
 
 :::message alert
-2020/10/10〜チャプターファイルの管理方法が変わりました。
+2020/10/10〜チャプターファイルの管理方法が変わりました。`npm install zenn-cli@latest`を実行してCLIが最新版になっていることをご確認ください。
+
 [🐱 以前の方法](https://github.com/zenn-dev/zenn-docs/blob/9c433b5a4ec6cb7ec60bb36a54cf92eee7078ca6/articles/zenn-cli-guide.md#%E6%9C%AC%E3%81%AE%E5%90%84%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E5%BD%B9%E5%89%B2) / [🦁 以前の方法から新しい方法へ移行する](https://zenn.dev/zenn/articles/deprecated-book-deployment)
 :::
 
@@ -224,7 +225,7 @@ chapters:
   - results
   - conclusion
 ```
-👆 zenn.dev上では`chapters`に配列で指定された順番にチャプターが並ぶことになります。この例の場合「introduction → results → conclusion」の順に並びます。指定されなかった`abstract.md`は同期されません。
+👆 zenn.dev上では`chapters`に配列で指定された順番にチャプターが並ぶことになります。この例の場合「introduction → results → conclusion」の順に並びます。`abstract.md`は指定されていないため同期されません。
 
 ## 本の雛形をコマンドで作成する
 
