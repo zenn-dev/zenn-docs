@@ -1,5 +1,5 @@
 ---
-title: "Zenn CLIを使ってコンテンツを作成する"
+title: "Zenn CLIで記事・本を管理する"
 emoji: "🔨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]
@@ -105,6 +105,13 @@ Zennと連携したリポジトリの登録ブランチにプッシュされる�
 ----
 
 # CLIで本（book）を管理する
+
+:::message alert
+2020/10/10〜チャプターファイルの管理方法が変わりました。
+[🐱 以前の方法](https://github.com/zenn-dev/zenn-docs/blob/9c433b5a4ec6cb7ec60bb36a54cf92eee7078ca6/articles/zenn-cli-guide.md#%E6%9C%AC%E3%81%AE%E5%90%84%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E5%BD%B9%E5%89%B2) / [🦁 以前の方法から新しい方法へ移行する](https://zenn.dev/zenn/articles/deprecated-book-deployment)
+:::
+
+
 Zennの本は複数のチャプターで構成されます。
 
 ## 本のディレクトリ構成
@@ -115,10 +122,10 @@ GitHubリポジトリで本のデータを管理する場合は、次のよう�
 .
 ├─ articles
 └─ books
-   └── 本のslug
-       ├── config.yaml # 本の設定ファイル
+   └── 本のスラッグ
+       ├── config.yaml # 本の設定
        ├── cover.png　# カバー画像（JPEGかPNG）
-       └── チャプター番号.md
+       └── チャプターのスラッグ.md # 各チャプター
 ```
 
 
@@ -130,21 +137,17 @@ books
 └── my-awesome-book
     ├── config.yaml
     ├── cover.png
-    ├── 1.md
-    ├── 2.md
-    ├── 3.md
-    ├── 4.md
-    ├── 5.md
-    └── 6.md
+    ├── example1.md
+    ├── example2.md
+    └── example3.md
 ``` 
 
-👆`チャプター番号.md`のファイルは必要なチャプター数だけ作成します。
+👆`example1.md`や`example2.md`は各チャプターファイルの例です（のちほど詳しく説明します）。
 
 これが1冊の本のファイル構成です。複数の本を作成するためには、同様の構成のディレクトリを複数`books`内に作ることになります。
 
 :::message
-実際の例としては[Zennのドキュメント用リポジトリ](https://github.com/zenn-dev/zenn-docs
-)が参考になるかもしれません。
+実際の例として[Zennのドキュメント用リポジトリ](https://github.com/zenn-dev/zenn-docs)が参考になるかもしれません。
 :::
 
 ## 本の各ファイルの役割
@@ -158,15 +161,27 @@ summary: "本の紹介文"
 topics: ["markdown", "zenn", "react"] # トピック（5つまで）
 published: true # falseだと下書き
 price: 0 # 有料の場合200〜5000
+chapters:
+  - example1 # チャプター1
+  - example2 # チャプター2
+  - example3 # チャプター3
 ```
-👆 たとえば本を1000円で販売するときは`price: 1000`と記載します（200〜5000の間で100円単位で設定する必要があります）。
+
+- **`title`**: 本のタイトルを入力します
+- **`summary`**: 本の紹介文を入力します。これは有料の本であっても公開されます
+- **`topics`**: トピック（タグ）を5つまで指定します
+- **`published`**: 公開する場合は`true`にします
+- **`price`**: たとえば本を1000円で販売するときは`price: 1000`と記載します（200〜5000の間で100円単位で設定する必要があります）。
+- **`chapters`**: チャプターの並び順を配列で指定します（入れ子には未対応）。ここに指定されなかったチャプターはzenn.devに同期されません
 
 ### 🖼️ カバー画像
 本のカバー画像（表紙）は`cover.png`もしくは`cover.jpeg`というファイル名で配置します。
 推奨の画像サイズは**幅500px・高さ700px**です。他のサイズにした場合も最終的にこのサイズにリサイズされます。
 
 ### 📄 各チャプターのファイル（`◯◯.md`）
-チャプターは`1.md`、`2.md`、`3.md`...のように必要なチャプター数だけ作成します。この中に本文を書きます。各チャプターのマークダウンファイルにはFront Matterでタイトルを指定します。
+各チャプターのファイル名は「`a-z0-9`と`-`の1〜50字の組み合わせ」+ `.md`とします。この文字列はURLの一部となります。例えば`about.md`のチャプターのURLは`/ユーザー名/本のスラッグ/viewer/about`となります。
+
+各チャプターのマークダウンファイルにはFront Matterでタイトルを指定し、その下に本文を書いていきます。
 
 ```yaml
 ---
@@ -191,6 +206,25 @@ free: true
 ---
 ```
 
+### 具体的な例
+たとえば、次の4つのチャプターファイルを作ったとします。
+
+- `abstract.md`
+- `results.md`
+- `introduction.md`
+- `conclusion.md`
+
+表示順は`config.yaml`で指定します。
+
+```yaml
+# config.yaml
+...省略...
+chapters:
+  - introduction
+  - results
+  - conclusion
+```
+👆 zenn.dev上では`chapters`に配列で指定された順番にチャプターが並ぶことになります。この例の場合「introduction → results → conclusion」の順に並びます。指定されなかった`abstract.md`は同期されません。
 
 ## 本の雛形をコマンドで作成する
 
@@ -205,7 +239,7 @@ $ npx zenn new:book
 あとは1つずつファイルを作成していけばOKです。
 
 :::message
-slugは`a-z0-9`とハイフン`-`の12〜50字の組み合わせにする必要があります
+本のslugは`a-z0-9`とハイフン`-`の12〜50字の組み合わせにする必要があります
 :::
 
 ## 本と各チャプターをプレビューする
