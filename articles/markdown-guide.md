@@ -288,7 +288,3 @@ StackBlitzでは、各ページから「Embed URL」を取得できます。取�
 ![](https://storage.googleapis.com/zenn-user-upload/t87wf3d7xgfv7cabv4a9lfr1t79q)
 
 
-
----
-
-今後[CodeSandbox](https://codesandbox.io)などの埋め込みにも対応する予定です。
