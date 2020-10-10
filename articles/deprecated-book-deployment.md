@@ -6,7 +6,7 @@ topics: ["zenn"]
 published: true
 ---
 
-2020/10/10〜GitHubリポジトリで本のチャプターを管理する方法が変わりました。新しい管理方法はこのページでも説明しますが、[CLIで本を管理する](https://zenn.dev/zenn/articles/zenn-cli-guide)で確認することもできます。
+2020/10/10〜GitHubリポジトリで本のチャプターを管理する方法が変わりました。新しい管理方法はこのページでも説明しますが、[CLIで本を管理する](https://zenn.dev/zenn/articles/zenn-cli-guide#cli%E3%81%A7%E6%9C%AC%EF%BC%88book%EF%BC%89%E3%82%92%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B)で確認することもできます。
 
 :::message
 Web上（zenn.dev上）で本を作成・編集している場合には影響はありません。
