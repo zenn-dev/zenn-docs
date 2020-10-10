@@ -3,7 +3,7 @@ title: "本のチャプターファイルの作成方法が変わりました"
 emoji: "🙏"
 type: "idea"
 topics: ["zenn"]
-published: false
+published: true
 ---
 
 2020/10/10〜GitHubリポジトリで本のチャプターを管理する方法が変わりました。新しい管理方法はこのページでも説明しますが、[CLIで本を管理する](https://zenn.dev/zenn/articles/zenn-cli-guide)で確認することもできます。
