@@ -2,7 +2,15 @@
 title: "Zennで本を作成しよう"
 ---
 
+
+:::message
+この本ではWeb上で本を作成する方法を解説してます。GitHubリポジトリで本を作成する場合は、下記のページをご覧ください。
+[GitHubリポジトリとCLIでコンテンツを管理する→](https://zenn.dev/zenn/articles/zenn-cli-guide)
+:::
+
+
 このチャプターでは、Zennで本を作成する方法を紹介します。ログインしていない場合は、Zennに[ログイン（サインアップもこちら）](https://zenn.dev/enter)しましょう。
+
 
 # Add new
 まずヘッダー右上の**Add new**をクリックします。
