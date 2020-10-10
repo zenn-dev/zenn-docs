@@ -265,6 +265,22 @@ SpeakerDeckで取得した埋め込みコードに含まれる`data-id`の値を
 @[jsfiddle](ページのURL)
 ```
 
+### CodeSandbox
+
+```
+@[codesandbox](embed用のURL)
+```
+
+CodeSandboxでは、各ページから埋め込み用の`<iframe>`を取得できます。この`<iframe>`に含まれる`src`のURLを括弧の中に入力します。
+
+### StackBlitz
+
+```
+@[stackblitz](embed用のURL)
+```
+
+StackBlitzでは、各ページから「Embed URL」を取得できます。取得したURLをそのまま括弧の中に入力します。
+
 ### オンラインエディターではモーダルから挿入可能
 
 オンラインのエディターでは「+」ボタンを押すことで、外部コンテンツ埋め込み用のモーダルを表示できます。
