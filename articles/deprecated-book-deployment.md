@@ -72,13 +72,13 @@ chapters:
 
 
 ### 🚩 configで指定されなかったチャプターは削除されることに注意
-すでに`about`、`create-book`、`update-book`、`conclusion`という4つのチャプターを持つ本がzenn.devに同期されているとします。この後、config.yamlにて、以下のように指定した場合…
+すでに`about`、`create-book`、`update-book`、`conclusion`という4つのチャプターを持つ本がzenn.devに同期されているとします。この後、config.yamlにて、以下のように指定したうえでデプロイした場合…
 ```yaml
 chapters:
   - about
   - conclusion
 ```
-指定されなかった既存のチャプター（`create-book`と`update-book`）はzenn.dev上から削除されることにご注意ください。
+指定されなかった既存のチャプター（`create-book`と`update-book`）はzenn.dev上からは削除されることにご注意ください。
 
 # すでに同期済みの本の対応について
 すでにzenn.devに同期されている本については、以前の方法を継続して使用することができます。

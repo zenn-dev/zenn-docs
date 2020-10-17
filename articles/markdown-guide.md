@@ -40,6 +40,14 @@ published: true
 2. Second
 
 
+# テキストリンク
+```
+[アンカーテキスト](リンクのURL)
+```
+[アンカーテキスト](https://zenn.dev)
+`Ctrl + K`のショートカットでも挿入できます。
+
+
 
 # 画像
 ```
@@ -56,13 +64,14 @@ published: true
 ```
 ![altテキスト](https://storage.googleapis.com/zenn-user-upload/gxnwu3br83nsbqs873uibiy6fd43 =250x)
 
+### 画像にリンクを貼る
+以下のようにすることで画像に対してリンクを貼ることもできます。
 
-# テキストリンク
 ```
-[アンカーテキスト](リンクのURL)
+[![altテキスト](画像のURL)](リンクのURL)
 ```
-[アンカーテキスト](https://zenn.dev)
-`Ctrl + K`のショートカットでも挿入できます。
+
+
 
 
 # テーブル
