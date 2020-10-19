@@ -64,13 +64,22 @@ published: true
 ```
 ![altテキスト](https://storage.googleapis.com/zenn-user-upload/gxnwu3br83nsbqs873uibiy6fd43 =250x)
 
+### キャプションをつける
+画像のすぐ下の行に`*`で挟んだテキストを配置すると、キャプションのような見た目で表示されます。
+```
+![](https://画像のURL)
+*キャプション*
+```
+
+![](https://storage.googleapis.com/zenn-user-upload/gxnwu3br83nsbqs873uibiy6fd43 =250x)
+*captions*
+
 ### 画像にリンクを貼る
 以下のようにすることで画像に対してリンクを貼ることもできます。
 
 ```
 [![altテキスト](画像のURL)](リンクのURL)
 ```
-
 
 
 
