@@ -1,5 +1,5 @@
 ---
-title: "本のチャプターファイルの作成方法が変わりました"
+title: "Zenn本のチャプターファイルの作成方法が変わりました"
 emoji: "🙏"
 type: "idea"
 topics: ["zenn"]
