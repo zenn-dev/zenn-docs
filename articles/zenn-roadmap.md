@@ -6,7 +6,8 @@ topics: ["zenn"]
 published: true
 ---
 
-Zennの開発ロードマップはGitHub Projectsへ移行しました。
+
+Zennの開発ロードマップはGitHub Projectへ移行しました。
 
 :::message
 **[Zenn Roadmap on GitHub →](https://github.com/zenn-dev/zenn-roadmap/projects/1)**
