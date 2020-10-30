@@ -6,7 +6,7 @@ topics: ["zenn"]
 published: true
 ---
 
-slug（スラッグ）は、記事や本のユニークなIDのようなものです。例えばスラッグが`example-article`の記事のURLは
+slug（スラッグ）は、記事や本のユニークなIDのような文字列です。例えばスラッグが`example-article`の記事のURLは
 
 ```
 https://zenn.dev/ユーザー名/articles/example-article
