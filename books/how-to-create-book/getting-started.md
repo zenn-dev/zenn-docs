@@ -4,7 +4,7 @@ title: "Zennで本を作成しよう"
 
 
 :::message
-この本ではWeb上で本を作成する方法を解説してます。GitHubリポジトリで本を作成する場合は
+この本ではWeb上で本を作成する方法を解説しています。GitHubリポジトリで本を作成する場合は
 [GitHubリポジトリとCLIでコンテンツを管理する](https://zenn.dev/zenn/articles/zenn-cli-guide) をご覧ください。
 :::
 
