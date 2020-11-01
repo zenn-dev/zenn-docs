@@ -15,7 +15,7 @@ https://zenn.dev/ユーザー名/articles/example-article
 となります。
 
 # slugの指定
-slugは基本的にランダムで作成されます。[コンテンツのGitHubリポジトリ管理](https://zenn.dev/zenn/articles/connect-to-github)を行っている場合のみ、slugを任意に指定できます。
+ウェブ上で記事や本を作成する場合、slugはランダムで作成されます。[コンテンツのGitHubリポジトリ管理](https://zenn.dev/zenn/articles/connect-to-github)を行っている場合のみ、slugを任意に指定できます。
 
 # slugの注意点
 1. slugはサイト全体で（記事や本などのコンテンツの種類ごとに）ユニークでなければなりません
