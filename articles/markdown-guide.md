@@ -251,7 +251,20 @@ $$
 
 分かりづらいのですが「detail」ではなく「details」です。
 
-# 外部コンテンツの埋め込み
+# コンテンツの埋め込み
+
+### リンクカード
+
+```bash
+# URLだけの行
+https://zenn.dev/zenn/articles/markdown-guide
+```
+
+2020年11月から実験的に導入中です。URLだけが貼り付けられた行があると、その部分がカードとして表示されます。
+
+https://zenn.dev/zenn/articles/markdown-guide
+
+カードへの変換はzenn.dev上でだけ行われ、CLIでプレビューすることはできません。
 
 
 ### Twitter
