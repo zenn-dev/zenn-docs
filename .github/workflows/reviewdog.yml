@@ -1,0 +1,21 @@
+name: reviewdog
+on: [pull_request]
+jobs:
+  textlint:
+    name: runner / textlint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Setup node/npm
+        uses: actions/setup-node@v2-beta # @v2 is not available yet
+        with:
+          node-version: '15'
+      - name: textlint-github
+        uses: kounoike/action-textlint@run-on-image-textlint
+        with:
+          github_token: ${{ secrets.github_token }}
+          reporter: github-pr-review
+          textlint_flags: "./**.md"

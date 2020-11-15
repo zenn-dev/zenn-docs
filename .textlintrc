@@ -1,0 +1,52 @@
+{
+  "rules": {
+      // 技術文書向けの textlint ルールプリセット
+      "preset-ja-technical-writing": {
+         "sentence-length": {                          // 1文の長さ
+           "max" : 90
+         },
+         "max-comma": {                                // 1文中のカンマ
+           "max" : 3
+         },
+         "max-ten": {                                  // 1文中の読点
+           "max" : 3
+         },
+         "max-kanji-continuous-len": {                 // 連続漢字長
+           "max" : 5 ,
+           "allow" : ["電子書籍端末"]
+         },
+         "arabic-kanji-numbers": true,                 // 漢数字と算用数字の使い分け
+         "no-mix-dearu-desumasu": {                    // 「ですます調」と「である調」
+           "preferInHeader": "",                       // + 見出し   : 自動
+           "preferInBody"  : "ですます",               // + 本文     : ですます調
+           "preferInList"  : "である",                 // + 箇条書き : である調
+           "strict"        : false                     // + 文末以外のチェックをしない
+         },
+         "ja-no-mixed-period": {                       // 文末の句点記号に「。」を使う
+           "periodMark": "。"
+         },
+         "no-double-negative-ja": true,                // 二重否定は使用しない
+         "no-dropping-the-ra"   : true,                // ら抜き言葉を使用しない
+         "no-doubled-conjunctive-particle-ga": true,   // 逆接の接続助詞「が」を連続して使用しない
+         "no-doubled-conjunction": true,               // 同じ接続詞を連続して使用しない
+         "no-doubled-joshi": {                         // 同じ助詞を連続して使用しない
+           "min_interval": 1
+         },
+         "no-nfd": true,                               // UTF8-MAC 濁点を使用しない
+         "no-exclamation-question-mark": {             // 感嘆符「!！?？」の使用
+            "allowHalfWidthExclamation": false,        // + 半角!
+            "allowFullWidthExclamation": false,        // + 全角！
+            "allowHalfWidthQuestion": false,           // + 半角?
+            "allowFullWidthQuestion": true             // + 全角？
+         },
+         "no-hankaku-kana": true,                      // 半角カナを使用しない
+         "ja-no-weak-phrase": true,                    // 弱い日本語表現の利用を使用しない
+         "ja-no-successive-word": true,                // 同一の単語の連続チェック
+         "ja-no-abusage": true,                        // よくある日本語の誤用のチェック
+         "ja-no-redundant-expression" : true           // 冗長な表現をチェックする
+       }
+  },
+  "plugins": [
+        "review"
+    ]
+}
