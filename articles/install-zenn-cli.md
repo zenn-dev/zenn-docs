@@ -25,6 +25,10 @@ Zenn CLIのソースコードは[GitHubに公開](https://github.com/zenn-dev/ze
 - あらかじめ[ZennとGitHubリポジトリとの連携](https://zenn.dev/zenn/articles/connect-to-github)を行っておくことをおすすめします。
 - Zenn CLIはNode.js製です。Node.jsをはじめて使う場合は[インストール](https://nodejs.org/ja/)する必要があります。
 
+:::message alert
+**2020/11/15追記**：Node.js `v15`でzenn-cliをインストールできない問題が発生しています。原因の調査中ですが、`v13`もしくは`v14`をご利用ください。
+:::
+
 ## 1. CLIをインストールする
 Zennのコンテンツを管理したいディレクトリで、以下のコマンドを実行します。
 
