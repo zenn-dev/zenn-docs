@@ -236,9 +236,9 @@ chapters:
 `config.yaml`でチャプターの並び順を指定すると、ディレクトリ内が煩雑になってしまうという場合には、ファイル名で並び順を制御することもできます。
 
 
-:::details 詳しく読む
+::::details 詳しく読む
 
-ファイル名を`チャプター番号.スラッグ.md`という形にすると、その順番通りにチャプターが表示されます。
+ファイル名を`チャプター番号.slug.md`という形にすると、その順番通りにチャプターが表示されます。
 
 
 ```shell
@@ -253,15 +253,20 @@ books
 
 この方法でデプロイを行う場合、`config.yaml`の`chapters`は空にしておく必要があります。
 
-#### デプロイ時の判別
+デプロイ時に以下のようなファイルの読み方をするためです。
 
-- `config.yaml`で`chapters`が指定されている場合 => chaptersの指定通りに`slug.md`を読みにいきます
-- `config.yaml`で`chapters`が指定されていない場合 => `番号.slug.md`を読みにいきます
+- `config.yaml`で`chapters`が指定されている場合 => 指定通りに`slug.md`を読みにいく
+- `config.yaml`で`chapters`が空の場合 => `番号.slug.md`を読みにいく
+
+
+::: message alert
+複数のチャプターで同じslugを使うことはできません。例えば`2.summary.md`と`3.summary.md`という同一slugのファイルがあった場合、どちらか片方しか反映されません。
+:::
 
 
 [関連するGitHub Issue →](https://github.com/zenn-dev/zenn-editor/issues/45)
 
-:::
+::::
 
 ## 本の雛形をコマンドで作成する
 
