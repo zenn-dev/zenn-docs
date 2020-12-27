@@ -260,20 +260,32 @@ $$
 https://zenn.dev/zenn/articles/markdown-guide
 ```
 
-2020年11月から実験的に導入中です。URLだけが貼り付けられた行があると、その部分がカードとして表示されます。
+URLだけが貼り付けられた行があると、その部分がカードとして表示されます。
 
 https://zenn.dev/zenn/articles/markdown-guide
 
-カードへの変換はzenn.dev上でだけ行われ、CLIでプレビューすることはできません。
+~~カードへの変換はzenn.dev上でだけ行われ、CLIでプレビューすることはできません。~~ Zenn CLIでもカードが表示されるようになりました。
 
 
-### Twitter
+### ツイート
 
+```bash
+# ツイートのURLだけの行（前後に改行が必要です）
+https://twitter.com/jack/status/20
 ```
-@[tweet](ツイートページのURL)
+
+以前派`@[tweet](ツイートのURL)`の記法を採用していましたが、2020/12/27にURLを貼り付けるだけでツイートを埋め込むことが可能になりました。
+
+### GitHub Gist
+
+```bash
+# GistのページのURLだけの行（前後に改行が必要です）
+https://gist.github.com/gdb/b6365e79be6052e7531e7ba6ea8caf23
 ```
 
-「twitter」ではなく「tweet」であることにご注意ください。
+2020/12/27に対応しました。GistのページのURLを貼り付けるだけで埋め込みができます。特定のファイルだけ埋め込みたい場合は`https://gist.github.com/foo/bar?file=example.json`のように`?file=ファイル名`を指定してください。
+
+
 
 
 ### YouTube
