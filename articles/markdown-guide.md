@@ -293,7 +293,7 @@ URLに含まれる英数字の組み合わせを入力します。たとえばUR
 @[gist](GistのページURL)
 ```
 
-2020/12/27に対応しました。G特定のファイルだけ埋め込みたい場合は`@[gist](https://gist.github.com/foo/bar?file=example.json)`のように`?file=ファイル名`を指定してください。
+2020/12/28〜対応しました。特定のファイルだけ埋め込みたい場合は`@[gist](https://gist.github.com/foo/bar?file=example.json)`のようにクエリ文字列で`?file=ファイル名`という形で指定します。
 
 
 ### CodePen
