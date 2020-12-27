@@ -276,15 +276,6 @@ https://twitter.com/jack/status/20
 
 以前派`@[tweet](ツイートのURL)`の記法を採用していましたが、2020/12/27にURLを貼り付けるだけでツイートを埋め込むことが可能になりました。
 
-### GitHub Gist
-
-```bash
-# GistのページのURLだけの行（前後に改行が必要です）
-https://gist.github.com/gdb/b6365e79be6052e7531e7ba6ea8caf23
-```
-
-2020/12/27に対応しました。GistのページのURLを貼り付けるだけで埋め込みができます。特定のファイルだけ埋め込みたい場合は`https://gist.github.com/foo/bar?file=example.json`のように`?file=ファイル名`を指定してください。
-
 
 
 
@@ -294,6 +285,15 @@ https://gist.github.com/gdb/b6365e79be6052e7531e7ba6ea8caf23
 @[youtube](動画のID)
 ```
 URLに含まれる英数字の組み合わせを入力します。たとえばURLが`https://youtube.com/watch?v=ApXoWvfEYVU`の場合、`@[youtube](ApXoWvfEYVU)`と指定します。
+
+
+### GitHub Gist
+
+```bash
+@[gist](GistのページURL)
+```
+
+2020/12/27に対応しました。G特定のファイルだけ埋め込みたい場合は`@[gist](https://gist.github.com/foo/bar?file=example.json)`のように`?file=ファイル名`を指定してください。
 
 
 ### CodePen
