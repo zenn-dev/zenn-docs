@@ -274,7 +274,7 @@ https://zenn.dev/zenn/articles/markdown-guide
 https://twitter.com/jack/status/20
 ```
 
-以前派`@[tweet](ツイートのURL)`の記法を採用していましたが、2020/12/27にURLを貼り付けるだけでツイートを埋め込むことが可能になりました。
+以前は`@[tweet](ツイートのURL)`の記法を採用していましたが、2020/12/27にURLを貼り付けるだけでツイートを埋め込むことが可能になりました。
 
 
 
