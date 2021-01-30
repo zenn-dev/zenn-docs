@@ -9,14 +9,16 @@ published: true
 ZennがRSSフィードに対応しました。現在、以下の3種類のフィードを用意しています。
 
 # 1. トレンドのフィード
+
 **https://zenn.dev/feed**
 
 # 2. ユーザーごとのフィード
+
 ```
 https://zenn.dev/ユーザー名/feed
 ```
 
-たとえばZenn公式アカウント（@zenn）のフィードは[https://zenn.dev/zenn/feed](https://zenn.dev/zenn/feed)となります。
+たとえばZenn公式アカウント（[@zenn](https://zenn.dev/zenn)）のフィードは[https://zenn.dev/zenn/feed](https://zenn.dev/zenn/feed)となります。
 ユーザーページのURLの末尾に`/feed`を足す形になります。
 
 # 3. トピックごとのフィード
