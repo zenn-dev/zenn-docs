@@ -306,7 +306,7 @@ https://zenn.dev/__example__
 
 > https://zenn.dev/__example__
 
-**対処法**
+#### 対処法
 
 1. カード型のリンクとして表示したい場合は
 `@[card](ここにURL)`という書き方をしてください
