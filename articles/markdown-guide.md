@@ -326,7 +326,7 @@ https://twitter.com/jack/status/20
 
 #### リプライ元のツイートを非表示にする
 
-リプライを埋め込んだ場合、デフォルトでリプライ元のツイートも含まれた状態で表示されます。`ツイートのURL?conversation=none`のように`conversation=none`をクエリパラメータに指定すると、リプライ元のツイートが含まれなくなります。
+リプライを埋め込んだ場合、デフォルトでリプライ元のツイートも含まれて表示されます。`ツイートのURL?conversation=none`のようにクエリパラメータに`conversation=none`を指定すると、リプライ元のツイートが含まれなくなります。
 
 
 ### YouTube
@@ -336,7 +336,7 @@ https://twitter.com/jack/status/20
 https://www.youtube.com/watch?v=WRVsOCh907o
 ```
 
-以前は`@[tweet](YouTubeの動画ID)`という記法を採用していましたが、2021/03/03〜URLを貼り付けるだけで動画を埋め込むことが可能になりました。
+以前は`@[youtube](YouTubeの動画ID)`という記法を採用していましたが、2021/03/03〜URLを貼り付けるだけで動画を埋め込むことが可能になりました。
 
 
 ### GitHub Gist
