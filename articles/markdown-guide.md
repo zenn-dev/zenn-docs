@@ -322,17 +322,21 @@ https://zenn.dev/__example__
 https://twitter.com/jack/status/20
 ```
 
-以前は`@[tweet](ツイートのURL)`の記法を採用していましたが、2020/12/27にURLを貼り付けるだけでツイートを埋め込むことが可能になりました。
+以前は`@[tweet](ツイートのURL)`の記法を採用していましたが、2020/12/27〜URLを貼り付けるだけでツイートを埋め込むことが可能になりました。
 
+#### リプライ元のツイートを非表示にする
 
+リプライを埋め込んだ場合、デフォルトでリプライ元のツイートも含まれた状態で表示されます。`ツイートのURL?conversation=none`のように`conversation=none`をクエリパラメータに指定すると、リプライ元のツイートが含まれなくなります。
 
 
 ### YouTube
 
+```bash
+# YouTubeのURLだけの行（前後に改行が必要です）
+https://www.youtube.com/watch?v=WRVsOCh907o
 ```
-@[youtube](動画のID)
-```
-URLに含まれる英数字の組み合わせを入力します。たとえばURLが`https://youtube.com/watch?v=ApXoWvfEYVU`の場合、`@[youtube](ApXoWvfEYVU)`と指定します。
+
+以前は`@[tweet](YouTubeの動画ID)`という記法を採用していましたが、2021/03/03〜URLを貼り付けるだけで動画を埋め込むことが可能になりました。
 
 
 ### GitHub Gist
