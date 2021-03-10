@@ -298,7 +298,7 @@ https://zenn.dev/zenn/articles/markdown-guide
 また`@[card](URL)`という書き方でカード型のリンクを貼ることもできます。
 
 :::details アンダースコア _ を含むURLが正しく認識されない場合
-マークダウンパーサの事情からアンダースコア（`_`）を含むURLで、正しくURLが認識されないことがあります。
+[markdownパーサの仕様](https://zenn.dev/catnose99/scraps/e94c8e789f846a)により、を含むURLで、正しくURLが認識されないことがあります。
 
 ```
 https://zenn.dev/__example__
@@ -323,6 +323,23 @@ https://twitter.com/jack/status/20
 ```
 
 以前は`@[tweet](ツイートのURL)`の記法を採用していましたが、2020/12/27〜URLを貼り付けるだけでツイートを埋め込むことが可能になりました。
+
+:::details アンダースコア _ を含むURLが正しく認識されない場合
+[markdownパーサの仕様](https://zenn.dev/catnose99/scraps/e94c8e789f846a)により、URLの`/`の区切りの中に2つ以上アンダースコア（`_`）を含むと、自動リンクが途中で途切れてしまいます。
+
+```
+https://twitter.com/__example__/status/12345678910
+```
+
+> https://twitter.com/__example__/status/12345678910
+
+#### 対処法
+
+このようなURLでは`@[tweet](ツイートのURL)`という書き方をしていただくようお願いします。
+
+:::
+
+
 
 #### リプライ元のツイートを非表示にする
 
