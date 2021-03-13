@@ -298,7 +298,7 @@ https://zenn.dev/zenn/articles/markdown-guide
 また`@[card](URL)`という書き方でカード型のリンクを貼ることもできます。
 
 :::details アンダースコア _ を含むURLが正しく認識されない場合
-[markdownパーサの仕様](https://zenn.dev/catnose99/scraps/e94c8e789f846a)により、を含むURLで、正しくURLが認識されないことがあります。
+[markdownパーサの仕様](https://zenn.dev/catnose99/scraps/e94c8e789f846a)により、アンダースコア（`_`）を含むURLで、正しくURLが認識されないことがあります。
 
 ```
 https://zenn.dev/__example__
