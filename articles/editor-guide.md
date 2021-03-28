@@ -6,21 +6,17 @@ topics: ["zenn"]
 published: true
 ---
 
+このページでは Zenn で記事や本を作成するときの執筆環境について紹介します。
 
+# Zenn の執筆方法は 2 種類
 
-このページではZennで記事や本を作成する際の執筆環境について紹介します。
+Zenn のコンテンツは次のいずれかの方法で作成します。
 
-# Zennの執筆方法は2種類
-
-Zennのコンテンツは次のいずれかの方法で作成します。
-
-## 1. Webエディター
+## 1. Web エディター
 
 ![Zennのエディター](https://storage.googleapis.com/zenn-user-upload/tb04ri7f5v9mdccsehi5jppvfpm3)
 
-
-ブラウザ上で動くエディターです。Zennにログインした状態で使用します。
-
+ブラウザ上で動くエディターです。Zenn にログインした状態で使用します。
 
 :::details ショートカットを使用しよう
 
@@ -28,9 +24,9 @@ Zennのコンテンツは次のいずれかの方法で作成します。
 
 - **Ctrl + P（プレビュー）**：マークダウンがどのように表示されるかをチェックできます。もう一度ショートカットを実行すると、エディターに戻ります。
 - **Ctrl + S（内容の保存）**：変更内容を保存します。
-- **Ctrl + I（埋め込み）**：ツイートやYouTube、CodePen、SpeakerDeckなどの埋め込みコンテンツを挿入するためのモーダルが表示されます。
+- **Ctrl + I（埋め込み）**：ツイートや YouTube、CodePen、SpeakerDeck などの埋め込みコンテンツを挿入するためのモーダルが表示されます。
 
-※ Macの場合は「Ctrl」の代わりに「⌘」キーを使用します。
+※ Mac の場合は「Ctrl」の代わりに「⌘」キーを使用します。
 
 :::
 
@@ -40,19 +36,16 @@ Zennのコンテンツは次のいずれかの方法で作成します。
 
 ![](https://storage.googleapis.com/zenn-user-upload/ve1rve2rb3yvvcat974fxt2rftc1)
 
+自分の好きな環境で執筆したい方は**GitHub リポジトリとの連携機能**（ベータ版）を利用することをおすすめします。リポジトリ連携をすると、特定のブランチに変更があったときに自動でコンテンツが zenn.dev に反映されるようになります。
 
-自分の好きな環境で執筆したい方は**GitHubリポジトリとの連携機能**（ベータ版）を利用することをおすすめします。リポジトリ連携をすると、特定のブランチに変更があったときに自動でコンテンツがzenn.devに反映されるようになります。
+📘 **[Zenn と GitHub リポジトリを連携する →](https://zenn.dev/zenn/articles/connect-to-github)**
 
-📘 **[ZennとGitHubリポジトリを連携する →](https://zenn.dev/zenn/articles/connect-to-github)**
+リポジトリ連携時には、ローカルでマークダウンファイルを作成し、好きなテキストエディターで編集を行います。Zenn CLI を使うことでブラウザでプレビューしながらの執筆が可能です。
 
+📘 **[Zenn CLI を導入する →](https://zenn.dev/zenn/articles/install-zenn-cli)**
 
-リポジトリ連携時には、ローカルでマークダウンファイルを作成し、好きなテキストエディターで編集を行います。Zenn CLIを使うことでブラウザでプレビューしながらの執筆が可能です。
+---
 
-📘 **[Zenn CLIを導入する →](https://zenn.dev/zenn/articles/install-zenn-cli)**
+オンラインエディターを使う場合も、CLI を使う場合もマークダウンの書き方は変わりません。具体的な記法は下記のリンク先をご覧ください。
 
-
---- 
-
-オンラインエディターを使う場合も、CLIを使う場合もマークダウンの書き方は変わりません。具体的な記法は下記のリンク先をご覧ください。
-
-📘 **[Zennのマークダウン記法 →](https://zenn.dev/zenn/articles/markdown-guide)**
+📘 **[Zenn のマークダウン記法 →](https://zenn.dev/zenn/articles/markdown-guide)**
