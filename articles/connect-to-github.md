@@ -63,13 +63,13 @@ Zennにログインしたうえで、ダッシュボードの[デプロイ管理
 
 ［リポジトリを連携］を選ぶと、リポジトリを選択する画面が表示されます。
 
-![](https://storage.googleapis.com/zenn-user-upload/pwyqlevhxxcekw6919fnho2myukw)
+![](https://storage.googleapis.com/zenn-user-upload/vim7vyhvmubm2wchnovclp6b5hgg)
 
 
-このとき必ず「Only select repositories」にチェックを入れて、**さきほど作成したリポジトリだけを選ぶ**ようにしてください。
+このとき必ず「Only select repositories」にチェックを入れて、**連携するリポジトリだけを選ぶ**ようにしてください。
 
 :::message
-複数のリポジトリが選択されていると連携は失敗します。これは安全のための意図的な仕様です。
+連携できるリポジトリは最大2つです。3つ以上選択されていると連携が失敗します。これは安全のための意図的な仕様です。
 :::
 
 これで連携は完了です。
