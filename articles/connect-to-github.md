@@ -61,7 +61,7 @@ Zennにログインしたうえで、ダッシュボードの[デプロイ管理
 
 ![](https://storage.googleapis.com/zenn-user-upload/f2n02idgb8y6kucxcz2wgc4u3ihs)
 
-［リポジトリを連携］を選ぶと、リポジトリの選択する画面が表示されます。
+［リポジトリを連携］を選ぶと、リポジトリを選択する画面が表示されます。
 
 ![](https://storage.googleapis.com/zenn-user-upload/pwyqlevhxxcekw6919fnho2myukw)
 
