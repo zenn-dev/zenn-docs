@@ -81,6 +81,25 @@ Zennにログインしたうえで、ダッシュボードの[デプロイ管理
 
 ここで登録されている名前のブランチに変更があったときに自動でデプロイが行われます。
 
+# トラブルシューティング
+
+## リポジトリにプッシュしてもデプロイされない
+
+[ダッシュボード](https://zenn.dev/dashboard/deploys)からデプロイ履歴を確認してください。
+
+プッシュされた内容に問題がある場合は、エラーメッセージが表示されます。
+
+もしデプロイ履歴にログが出ていない場合は、GitHubの[インストール済みのApplications](https://github.com/settings/installations)の一覧からZenn ConnectのConfigureを開き、ダッシュボードに表示されている連携リポジトリとApplicationがアクセスを許可しているリポジトリが一致することを確認してください。
+
+【ダッシュボードに表示されている連携リポジトリ】
+
+![](https://storage.googleapis.com/zenn-user-upload/wnduuvs12mjlnbes1rl81xxba4sv)
+
+【Applicationがアクセスを許可しているリポジトリ】
+
+![](https://storage.googleapis.com/zenn-user-upload/g08tioqppyzdhkazpic50df5iai6)
+
+一致していない場合はデプロイされませんので、Application側のリポジトリを変更してください。また、連携するリポジトリを変更したい場合は、zennのダッシュボードから一度連携を解除してから再度連携を行ってください。
 
 # ファイルの作成やプレビューはCLIで
 ローカルでのファイルの作成や、マークダウンのプレビューにはZenn CLIを使います。具体的な使い方は下記のページをご覧ください。
