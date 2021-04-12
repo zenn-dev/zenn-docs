@@ -302,8 +302,8 @@ https://zenn.dev/zenn/articles/markdown-guide
 
 また`@[card](URL)`という書き方でカード型のリンクを貼ることもできます。
 
-:::details アンダースコア \_ を含む URL が正しく認識されない場合
-[markdown パーサの仕様](https://zenn.dev/catnose99/scraps/e94c8e789f846a)により、を含む URL で、正しく URL が認識されないことがあります。
+:::details アンダースコア _ を含むURLが正しく認識されない場合
+[markdownパーサの仕様](https://zenn.dev/catnose99/scraps/e94c8e789f846a)により、アンダースコア（`_`）を含むURLで、正しくURLが認識されないことがあります。
 
 ```
 https://zenn.dev/__example__
@@ -316,7 +316,7 @@ https://zenn.dev/__example__
 1. カード型のリンクとして表示したい場合は
    `@[card](ここにURL)`という書き方をしてください
 2. 単純にリンク化された URL を貼り付けたい場合は`<https://zenn.dev/__example__>`のような形で`<`と`>`で URL を囲むようにしてください
-   :::
+:::
 
 ### ツイート
 
