@@ -61,15 +61,15 @@ Zennにログインしたうえで、ダッシュボードの[デプロイ管理
 
 ![](https://storage.googleapis.com/zenn-user-upload/f2n02idgb8y6kucxcz2wgc4u3ihs)
 
-［リポジトリを連携］を選ぶと、リポジトリの選択する画面が表示されます。
+［リポジトリを連携］を選ぶと、リポジトリを選択する画面が表示されます。
 
-![](https://storage.googleapis.com/zenn-user-upload/pwyqlevhxxcekw6919fnho2myukw)
+![](https://storage.googleapis.com/zenn-user-upload/vim7vyhvmubm2wchnovclp6b5hgg)
 
 
-このとき必ず「Only select repositories」にチェックを入れて、**さきほど作成したリポジトリだけを選ぶ**ようにしてください。
+このとき必ず「Only select repositories」にチェックを入れて、**連携するリポジトリだけを選ぶ**ようにしてください。
 
 :::message
-複数のリポジトリが選択されていると連携は失敗します。これは安全のための意図的な仕様です。
+連携できるリポジトリは最大2つです。3つ以上選択されていると連携が失敗します。これは安全のための意図的な仕様です。
 :::
 
 これで連携は完了です。
@@ -81,6 +81,29 @@ Zennにログインしたうえで、ダッシュボードの[デプロイ管理
 
 ここで登録されている名前のブランチに変更があったときに自動でデプロイが行われます。
 
+# トラブルシューティング
+
+## 連携するリポジトリを変更したい
+
+[ダッシュボード](https://zenn.dev/dashboard/deploys)で連携を解除した後に、再度連携を行なってください。連携を解除しても同期されているデータはそのまま残ります。
+
+## リポジトリにプッシュしてもデプロイされない
+
+[ダッシュボード](https://zenn.dev/dashboard/deploys)からデプロイ履歴を確認してください。
+
+プッシュされた内容に問題がある場合は、エラーメッセージが表示されます。
+
+もしデプロイ履歴にログが出ていない場合は、GitHubの[インストール済みのApplications](https://github.com/settings/installations)の一覧からZenn ConnectのConfigureを開き、ダッシュボードに表示されている連携リポジトリとApplicationがアクセスを許可しているリポジトリが一致することを確認してください。
+
+【ダッシュボードに表示されている連携リポジトリ】
+
+![](https://storage.googleapis.com/zenn-user-upload/wnduuvs12mjlnbes1rl81xxba4sv)
+
+【Applicationがアクセスを許可しているリポジトリ】
+
+![](https://storage.googleapis.com/zenn-user-upload/g08tioqppyzdhkazpic50df5iai6)
+
+一致していない場合はデプロイされませんので、Application側のリポジトリを変更してください。また、連携するリポジトリを変更したい場合は、zennのダッシュボードから一度連携を解除してから再度連携を行ってください。
 
 # ファイルの作成やプレビューはCLIで
 ローカルでのファイルの作成や、マークダウンのプレビューにはZenn CLIを使います。具体的な使い方は下記のページをご覧ください。
