@@ -36,7 +36,7 @@ Zenn のコンテンツは次のいずれかの方法で作成します。
 
 ![](https://storage.googleapis.com/zenn-user-upload/ve1rve2rb3yvvcat974fxt2rftc1)
 
-自分の好きな環境で執筆したい方は**GitHub リポジトリとの連携機能**（ベータ版）を利用することをおすすめします。リポジトリ連携をすると、特定のブランチに変更があったときに自動でコンテンツが zenn.dev に反映されるようになります。
+自分の好きな環境で執筆したい方は**GitHub リポジトリとの連携機能**を利用することをおすすめします。リポジトリ連携をすると、特定のブランチに変更があったときに自動でコンテンツが zenn.dev に反映されるようになります。
 
 📘 **[Zenn と GitHub リポジトリを連携する →](https://zenn.dev/zenn/articles/connect-to-github)**
 

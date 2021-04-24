@@ -7,11 +7,6 @@ published: true
 ---
 
 
-
-:::message alert
-GitHubリポジトリとの連携機能は現在ベータ版です。今後仕様が変更される可能性があります
-:::
-
 Zennには[オンラインエディター](https://zenn.dev/zenn/articles/editor-guide)が用意されていますが、GitHubリポジトリと連携すればローカルのテキストエディターで執筆することもできます。
 
 # GitHub連携時のイメージ
