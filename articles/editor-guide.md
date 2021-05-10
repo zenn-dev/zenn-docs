@@ -12,7 +12,7 @@ published: true
 
 Zennのコンテンツは次のいずれかの方法で作成します。
 
-## 1. Web エディター
+## 1. Webエディター
 
 ![Zennのエディター](https://storage.googleapis.com/zenn-user-upload/tb04ri7f5v9mdccsehi5jppvfpm3)
 
