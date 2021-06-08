@@ -6,4 +6,4 @@ topics: ["zenn"]
 published: false
 ---
 
-test
+<https://zenn.dev>

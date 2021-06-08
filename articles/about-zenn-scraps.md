@@ -6,7 +6,7 @@ topics: ["zenn"]
 published: true
 ---
 
-ZennでScraps（スクラップ）機能が使えるようになりました。
+このページでは、ZennのScraps（スクラップ）機能について紹介します。
 
 # Zenn Scrapsとは
 
