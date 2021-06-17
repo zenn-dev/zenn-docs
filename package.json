@@ -4,6 +4,6 @@
   "author": "catnose99 <catnose99@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "zenn-cli": "^0.1.72"
+    "zenn-cli": "^0.1.87"
   }
 }
