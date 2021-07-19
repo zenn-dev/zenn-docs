@@ -18,6 +18,8 @@ GitHub リポジトリ連携機能により、GitHub リポジトリで管理さ
 
 ```text
 .
+├─ articles
+│  └── example-article-1.md
 └─ images
    ├── example-image1.png
    └── example-article-1
