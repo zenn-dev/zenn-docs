@@ -52,12 +52,12 @@ GitHub リポジトリ連携機能により、GitHub リポジトリで管理さ
 ## Zenn CLI でプレビュー
 
 :::message
-対応バージョン: `0.1.92-alpha.2` 以降
-
+対応バージョン: `0.1.93` 以降
 📘 [Zenn CLI の導入がまだの方はこちら](https://zenn.dev/zenn/articles/install-zenn-cli)
 :::
 
 本文に画像が正しく表示されるかは、Zenn CLI のプレビューで確認することができます。
+※サイト上からはプレビュー表示することはできません。
 
 ```shell
 npx zenn preview # プレビュー開始
