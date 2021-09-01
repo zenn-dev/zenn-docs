@@ -166,6 +166,9 @@ const great = () => {
 # 数式
 
 Zenn では**KaTeX**による数式表示に対応しています。
+KaTeXのバージョンは常に最新バージョンを使用します。
+
+[📄 KaTeXがサポートする記法の一覧 →](https://katex.org/docs/support_table.html)
 
 ### 数式のブロックを挿入する
 
