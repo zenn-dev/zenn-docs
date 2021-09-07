@@ -3,7 +3,7 @@ title: "Zennで特定のコメントを非表示にする"
 emoji: "👩‍🏭"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]
-published: false
+published: true
 ---
 
 Zennのスクラップや記事のコメント欄で、特定のコメントを非表示にする（折りたたむ）機能に対応しました。
