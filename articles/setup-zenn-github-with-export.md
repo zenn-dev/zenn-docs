@@ -37,7 +37,7 @@ https://zenn.dev/zenn/articles/connect-to-github
 
 ![](https://storage.googleapis.com/zenn-user-upload/yu84oke4inu5l5prmrowrqtgvv9y)
 
-`articles`と`books`内にはマークダウンファイルや本の設定ファイルなどが含まれており、これらのファイルはそのままzenn.devに同期（デプロイ）できる形式となっています。
+`articles`と`books`内にはmarkdownファイルや本の設定ファイルなどが含まれており、これらのファイルはそのままzenn.devに同期（デプロイ）できる形式となっています。
 
 ## 手順4: 変更をコミットしGitHubへプッシュする
 変更をコミットし、GitHubリポジトリのデプロイ対象ブランチ[^1]へとプッシュすると自動でデプロイが開始されます。既にZennで作成済みの投稿であっても、GitHubリポジトリ上で変更を行うことで内容が上書きされます。

@@ -13,7 +13,7 @@ ZennとGitHubリポジトリを連携すると、ローカルの好きなエデ�
 
 📘 **[ZennとGitHubリポジトリを連携する →](https://zenn.dev/zenn/articles/connect-to-github)**
 
-ローカルでの執筆時には、スムーズに**マークダウンファイルの作成**したり、コンテンツを**プレビュー**したりするために「Zenn CLI」を導入しましょう。
+ローカルでの執筆時には、スムーズに**markdownファイルの作成**したり、コンテンツを**プレビュー**したりするために「Zenn CLI」を導入しましょう。
 
 :::message
 Zenn CLIのソースコードは[GitHubに公開](https://github.com/zenn-dev/zenn-editor)されています
@@ -46,7 +46,7 @@ $ npx zenn init
 ```
 
 
-`README.md`や`.gitignore`のほか、`articles`と`books`という名前のディレクトリが作成されます。この中にマークダウンファイル（`◯◯.md`）を入れていくことになります。
+`README.md`や`.gitignore`のほか、`articles`と`books`という名前のディレクトリが作成されます。この中にmarkdownファイル（`◯◯.md`）を入れていくことになります。
 
 ## 3. 導入完了🎉
 これでZenn CLIの導入は完了です。以下のコマンドを実行することでブラウザでプレビューが開きます。
