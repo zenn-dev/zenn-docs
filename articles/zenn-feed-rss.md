@@ -6,7 +6,7 @@ topics: ["zenn", "rss"]
 published: true
 ---
 
-Zenn が RSS フィードに対応しました。現在、以下の 3 種類のフィードを用意しています。
+現在Zenでは以下の3種類のRSSフィードを用意しています。
 
 # 1. トレンドのフィード
 
@@ -19,7 +19,17 @@ https://zenn.dev/ユーザー名/feed
 ```
 
 たとえば Zenn 公式アカウント（[@zenn](https://zenn.dev/zenn)）のフィードは[https://zenn.dev/zenn/feed](https://zenn.dev/zenn/feed)となります。
-ユーザーページの URL の末尾に`/feed`を足す形になります。
+ユーザーページのURLの末尾に`/feed`を足す形です。
+
+:::details スクラップをフィードに含める
+
+デフォルトではスクラップはフィードに含まれてません。スクラップも含めたい場合は`https://zenn.dev/ユーザー名/feed?include_scraps=1`のように`include_scraps=1`というクエリ文字列を指定します。
+
+:::
+
+:::details 全ての公開アイテムをフィードに含める
+デフォルトではフィードに出力される投稿（記事・本）の数は20ほどに制限されています。すべての公開された投稿を出力したい場合は`https://zenn.dev/ユーザー名/feed?all=1`のように`all=1`というクエリ文字列を指定します。
+:::
 
 # 3. トピックごとのフィード
 
@@ -28,10 +38,5 @@ https://zenn.dev/topics/トピック名/feed
 ```
 
 たとえばトピック「[zenn](https://zenn.dev/topics/zenn)」のフィードは[https://zenn.dev/topics/zenn/feed](https://zenn.dev/topics/zenn/feed)となります。
-トピックページの URL の末尾に`/feed`を足す形になります。
+トピックページのURLの末尾に`/feed`を足す形です。
 
----
-
-Zenn では今後よりユーザーそれぞれの求めている情報を見つけやすいようにトップページやトレンドページを改善する予定です。
-
-それに伴い、上記以外のフィードを設置することも検討中です。少し時間がかかるかもしれません。気長にお待ちいただければ幸いです。
