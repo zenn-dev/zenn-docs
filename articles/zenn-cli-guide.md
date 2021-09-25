@@ -65,12 +65,11 @@ slug は`a-z0-9`、ハイフン`-`、アンダースコア`_`の 12〜50 字の�
 :::
 
 :::details 本文に画像を挿入するには
-GitHub連携時に本文に画像を挿入するには以下の方法を取ることができます。
+以下のいずれかの方法で本文に画像を挿入できます。
 
 1. [Zennの画像のアップロードページ](https://zenn.dev/dashboard/uploader)（要ログイン）から画像をアップロードしてURLを貼り付ける
 2. [GitHubリポジトリ内に画像を配置する](https://zenn.dev/zenn/articles/deploy-github-images)
 3. Gyazoなどの外部サービスにアップロードした画像のURLを貼り付ける
-
 
 :::
 
@@ -214,13 +213,11 @@ title: "チャプターのタイトル"
 ```
 
 :::details 本文に画像を挿入するには
-GitHub連携時に本文に画像を挿入するには以下の方法を取ることができます。
+以下のいずれかの方法で本文に画像を挿入できます。
 
 1. [Zennの画像のアップロードページ](https://zenn.dev/dashboard/uploader)（要ログイン）から画像をアップロードしてURLを貼り付ける
 2. [GitHubリポジトリ内に画像を配置する](https://zenn.dev/zenn/articles/deploy-github-images)
 3. Gyazoなどの外部サービスにアップロードした画像のURLを貼り付ける
-
-
 :::
 
 
