@@ -65,7 +65,9 @@ slug は`a-z0-9`、ハイフン`-`、アンダースコア`_`の 12〜50 字の�
 :::
 
 :::details 本文に画像を挿入するには
-GitHub 連携時に本文で画像を使う際は[画像のアップロードページ](https://zenn.dev/dashboard/uploader)をご利用ください。
+GitHub連携時に本文に画像を挿入したい場合、下記リンク先の方法でリポジトリ内に画像を配置するか、[画像のアップロードページ](https://zenn.dev/dashboard/uploader)をご利用ください。
+
+https://zenn.dev/zenn/articles/deploy-github-images
 :::
 
 ## プレビューする
@@ -207,8 +209,11 @@ title: "チャプターのタイトル"
 ```
 
 :::details 本文に画像を挿入するには
-GitHub 連携時に本文で画像を使う際は[画像のアップロードページ](https://zenn.dev/dashboard/uploader)をご利用ください。
+GitHub連携時に本文に画像を挿入したい場合、下記リンク先の方法でリポジトリ内に画像を配置するか、[画像のアップロードページ](https://zenn.dev/dashboard/uploader)をご利用ください。
+
+https://zenn.dev/zenn/articles/deploy-github-images
 :::
+
 
 有料の本で一部のチャプターを無料公開する場合は`free: true`を指定してください。本の価格が ¥0（無料）のときはこの設定は無視されます。
 
