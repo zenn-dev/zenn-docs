@@ -6,7 +6,7 @@ topics: ["zenn", "rss"]
 published: true
 ---
 
-現在Zenでは以下の3種類のRSSフィードを用意しています。
+現在Zennでは以下の3種類のRSSフィードを用意しています。
 
 # 1. トレンドのフィード
 
