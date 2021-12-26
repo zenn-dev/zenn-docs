@@ -36,9 +36,9 @@ published: true
 ## 他の人の助けを借りる
 記事や本と同じように、スクラップにはトピック（タグ）を紐付けることができます。`Go`や`AWS`などの技術的なトピックだけでなく、以下のようなトピックも紐付けてみましょう。
 
-- **[question](https://zenn.dev/topics/question/scraps)**：他の人からの意見やアイデアを募りたいときに
-- **[helpwanted](https://zenn.dev/topics/helpwanted/scraps)**：問題の解決方法が分からないときに
-- **[ama](https://zenn.dev/topics/ama/scraps)**：他の人からの質問を受け付けるときに（Ask Me Anything）
+- **[question](https://zenn.dev/topics/question?tab=scraps)**：他の人からの意見やアイデアを募りたいときに
+- **[helpwanted](https://zenn.dev/topics/helpwanted?tab=scraps)**：問題の解決方法が分からないときに
+- **[ama](https://zenn.dev/topics/ama?tab=scraps)**：他の人からの質問を受け付けるときに（Ask Me Anything）
 
 今後、これらのトピックを持つスクラップを見つけてもらいやすいように改善する予定です。
 
