@@ -62,4 +62,4 @@
 
 本ポリシーに関するお問い合わせは、下記の窓口までお願いいたします。
 
-E-mail: team.zenn.dev@gmail.com
+E-mail: zenn-support@classmethod.jp
