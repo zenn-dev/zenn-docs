@@ -7,7 +7,7 @@
 ```js
 {
   "yyyymmdd": number; // required
-  "type": ChangelogType; // required
+  "type": 'BugFix' | 'Feature' | 'Improve' | 'Chore'; // required
   "title": string; // required
   "breaking"?: boolean;
   "detailHtml"?: string;

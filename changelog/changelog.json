@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "yyyymmdd": 20220126,
+      "type": "Feature",
+      "breaking": false,
+      "needUpdateCLI": false,
+      "title": "本のビューアーにおいて矢印キー（←→）でチャプターを移動できるように",
+      "detailUrl": "https://github.com/zenn-dev/zenn-community/issues/270"
+    },
+    {
       "yyyymmdd": 20220124,
       "type": "Feature",
       "breaking": false,
