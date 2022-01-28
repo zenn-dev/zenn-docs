@@ -5,7 +5,7 @@
       "type": "Feature",
       "breaking": false,
       "needUpdateCLI": true,
-      "title": "Zenn CLIのプレビューを起動するときに--hostを指定できるように",
+      "title": "Zenn CLIのプレビューを起動するときに--hostオプションを指定できるように",
       "detailUrl": "https://github.com/zenn-dev/zenn-editor/issues/228"
     },
     {
