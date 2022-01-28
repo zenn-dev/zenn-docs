@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "yyyymmdd": 20220127,
+      "type": "Feature",
+      "breaking": false,
+      "needUpdateCLI": true,
+      "title": "Zenn CLIのプレビューを起動するときに--hostを指定できるように",
+      "detailUrl": "https://github.com/zenn-dev/zenn-editor/issues/228"
+    },
+    {
       "yyyymmdd": 20220126,
       "type": "Feature",
       "breaking": false,
