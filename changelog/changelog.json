@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "yyyymmdd": 20220131,
+      "type": "Feature",
+      "breaking": false,
+      "needUpdateCLI": true,
+      "title": "スクラップのエディターでクリップボードから画像をペーストできるように"
+    },
+    {
       "yyyymmdd": 20220127,
       "type": "Feature",
       "breaking": false,
