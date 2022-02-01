@@ -185,8 +185,9 @@
 
 
 ## 附則
-2022年04月01日改定（[diff](https://github.com/zenn-dev/zenn-docs/pull/29/files)）
-2020年09月17日改定（[diff](https://github.com/zenn-dev/zenn-docs/commit/67969bd9cb68e97a7b68f03a62f26af48bd04ef7)）
-2020年09月01日制定
+
+- 2022年04月01日改定（[diff](https://github.com/zenn-dev/zenn-docs/pull/29/files)）
+- 2020年09月17日改定（[diff](https://github.com/zenn-dev/zenn-docs/commit/67969bd9cb68e97a7b68f03a62f26af48bd04ef7)）
+- 2020年09月01日制定
 
 以上
