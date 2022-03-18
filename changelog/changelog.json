@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "yyyymmdd": 20220316,
+      "type": "Improve",
+      "breaking": false,
+      "needUpdateCLI": true,
+      "title": "記事やスクラップの返信のUIを改善"
+    },
+    {
+      "yyyymmdd": 20220317,
+      "type": "Improve",
+      "breaking": false,
+      "needUpdateCLI": true,
+      "title": ":::message 記法のセマンティクスを改善",
+      "detailUrl": "https://github.com/zenn-dev/zenn-editor/pull/274"
+    },
+    {
       "yyyymmdd": 20220131,
       "type": "Feature",
       "breaking": false,
