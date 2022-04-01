@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "yyyymmdd": 20220401,
+      "type": "Chore",
+      "breaking": false,
+      "needUpdateCLI": true,
+      "title": "利用規約を改定",
+      "detailUrl": "https://github.com/zenn-dev/zenn-docs/pull/29",
+      "detailHtml": "それに伴い<a href=\"https://zenn.dev/faq#badges\">選択できるバッジの種類の変更</a>や<a href=\"https://zenn.dev/dashboard/sales\">収益ダッシュボード</a>の大幅改修を行いました。"
+    },
+    {
       "yyyymmdd": 20220316,
       "type": "Improve",
       "breaking": false,
