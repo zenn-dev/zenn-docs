@@ -375,7 +375,7 @@ https://github.com/octocat/Hello-World/blob/master/README
 https://github.com/octocat/Hello-World/blob/master/README
 
 
-##### 行の指定
+#### 行の指定
 
 GitHubと同じように、リンクの末尾に`#L00-L00`のような形で表示するファイルの開始行と終了行を指定することができます。
 
@@ -399,7 +399,7 @@ https://github.com/octocat/Spoon-Knife/blob/main/README.md#L3
 
 https://github.com/octocat/Spoon-Knife/blob/main/README.md#L3
 
-##### テキストファイル以外は埋め込めません
+#### テキストファイル以外は埋め込めません
 
 埋め込めるファイルは、ソースコードなどのテキストファイルのみとなっています。
 もし画像などのファイルを指定した場合は、以下のような表示になります。
