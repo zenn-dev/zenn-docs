@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "yyyymmdd": 20220419,
+      "type": "Feature",
+      "breaking": false,
+      "needUpdateCLI": true,
+      "title": "GitHub上のソースコードを埋め込みできるように",
+      "detailUrl": "https://zenn.dev/zenn/articles/markdown-guide#github"
+    },
+    {
       "yyyymmdd": 20220412,
       "type": "Feature",
       "breaking": false,

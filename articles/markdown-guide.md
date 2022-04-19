@@ -360,6 +360,52 @@ https://www.youtube.com/watch?v=WRVsOCh907o
 
 以前は`@[youtube](YouTubeの動画ID)`という記法を採用していましたが、2021/03/03〜URL を貼り付けるだけで動画を埋め込むことが可能になりました。
 
+### GitHub
+
+2022/04〜より、GitHub上のソースコードファイルを埋め込めるようになりました。
+GitHub上のファイルへのURLまたはパーマリンクだけの行を作成すると、その部分にGitHubの埋め込みが表示されます。
+
+```bash
+# GitHubのファイルURLまたはパーマリンクだけの行（前後に改行が必要です）
+https://github.com/octocat/Hello-World/blob/master/README
+```
+
+上記のリンクは、以下のように表示されます。
+
+https://github.com/octocat/Hello-World/blob/master/README
+
+
+##### 行の指定
+
+GitHubと同じように、リンクの末尾に`#L00-L00`のような形で表示するファイルの開始行と終了行を指定することができます。
+
+```bash
+# コードの開始行と終了行を指定
+https://github.com/octocat/Spoon-Knife/blob/main/README.md#L1-L3
+```
+
+上記のリンクは以下のように表示されます。
+
+https://github.com/octocat/Spoon-Knife/blob/main/README.md#L1-L3
+
+また、開始行のみ指定することもできます。
+
+```bash
+# コードの開始行のみ指定
+https://github.com/octocat/Spoon-Knife/blob/main/README.md#L3
+```
+
+上記のリンクは以下のように表示されます。
+
+https://github.com/octocat/Spoon-Knife/blob/main/README.md#L3
+
+##### テキストファイル以外は埋め込めません
+
+埋め込めるファイルは、ソースコードなどのテキストファイルのみとなっています。
+もし画像などのファイルを指定した場合は、以下のような表示になります。
+
+https://github.com/zenn-dev/zenn-editor/blob/canary/packages/zenn-cli/images/example-images/zenn-editor.png
+
 ### GitHub Gist
 
 ```bash
