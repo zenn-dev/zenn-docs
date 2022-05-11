@@ -6,23 +6,20 @@ topics: ["zenn"]
 published: false
 ---
 
-Zennに投稿されたコンテンツを「はてなID」と紐づけられるようになりました。
+Zennに投稿されたコンテンツ（記事・本・チャプターページ・スクラップ）を「はてなID」と紐づけられるようになりました。
 
-紐づけることで、
+紐づけることで、[はてなブックマーク](https://hatenacorp.jp/information/product) に関わる以下の機能が利用できるようになります。
 
 - ブックマークされた際の、はてなIDへの通知
 - はてなブックマークのコメント一覧ページのコメント非表示
 - コメント一覧ページ（エントリーページ）の情報更新
 
-などの機能が [はてなブックマーク](https://hatenacorp.jp/information/product) などの「はてなサービス」で利用できるようになります。[^1]
-
-[^1]: https://b.hatena.ne.jp/help/entry/pageowner
-
+詳しくは[ページオーナー設定 - はてなブックマークヘルプ](https://b.hatena.ne.jp/help/entry/pageowner)をご覧ください。
 
 ## 設定方法
 
 :::message
-はてなアカウントを作成済みであることを想定しています。
+この設定を行うためには、[はてなアカウントを作成](https://www.hatena.ne.jp/register)しておく必要があります。
 :::
 
 Zenn の[アカウント設定画面](https://zenn.dev/settings/account)から「はてなIDと紐付け」の項目にある「はてなIDを設定」ボタンを押します。
