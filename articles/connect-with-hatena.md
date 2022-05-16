@@ -3,7 +3,7 @@ title: "はてなIDと投稿コンテンツを連携する"
 emoji: "❓"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]
-published: false
+published: true
 ---
 
 Zennに投稿されたコンテンツ（記事・本・チャプターページ・スクラップ）を「はてなID」と紐づけられるようになりました。
