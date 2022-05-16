@@ -4,7 +4,7 @@
       "yyyymmdd": 20220516,
       "type": "Feature",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "投稿コンテンツにはてなIDを指定できるように",
       "detailUrl": "https://zenn.dev/zenn/articles/connect-with-hatena"
     },
@@ -12,7 +12,7 @@
       "yyyymmdd": 20220419,
       "type": "Feature",
       "breaking": false,
-      "needUpdateCLI": true,
+      "needUpdateCli": true,
       "title": "GitHub上のソースコードを埋め込みできるように",
       "detailUrl": "https://zenn.dev/zenn/articles/markdown-guide#github"
     },
@@ -20,7 +20,7 @@
       "yyyymmdd": 20220412,
       "type": "Feature",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "購入済みの有料の本に対してバッジを贈れるように",
       "detailUrl": "https://github.com/zenn-dev/zenn-community/issues/387"
     },
@@ -28,7 +28,7 @@
       "yyyymmdd": 20220401,
       "type": "Chore",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "利用規約を改定",
       "detailUrl": "https://github.com/zenn-dev/zenn-docs/pull/29",
       "detailHtml": "それに伴い<a href=\"https://zenn.dev/faq#badges\">選択できるバッジの種類の変更</a>や<a href=\"https://zenn.dev/dashboard/sales\">収益ダッシュボード</a>の大幅改修を行いました。"
@@ -37,14 +37,14 @@
       "yyyymmdd": 20220316,
       "type": "Improve",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "記事やスクラップの返信のUIを改善"
     },
     {
       "yyyymmdd": 20220317,
       "type": "Improve",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": ":::message 記法のセマンティクスを改善",
       "detailUrl": "https://github.com/zenn-dev/zenn-editor/pull/274"
     },
@@ -52,14 +52,14 @@
       "yyyymmdd": 20220131,
       "type": "Feature",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "スクラップのエディターでクリップボードから画像をペーストできるように"
     },
     {
       "yyyymmdd": 20220127,
       "type": "Feature",
       "breaking": false,
-      "needUpdateCLI": true,
+      "needUpdateCli": true,
       "title": "Zenn CLIのプレビューを起動するときに--hostオプションを指定できるように",
       "detailUrl": "https://github.com/zenn-dev/zenn-editor/issues/228"
     },
@@ -67,7 +67,7 @@
       "yyyymmdd": 20220126,
       "type": "Feature",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "本のビューアーにおいて矢印キー（←→）でチャプターを移動できるように",
       "detailUrl": "https://github.com/zenn-dev/zenn-community/issues/270"
     },
@@ -75,7 +75,7 @@
       "yyyymmdd": 20220124,
       "type": "Feature",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "ソースコードをクリップボードにコピーできるように",
       "detailUrl": "https://github.com/zenn-dev/zenn-community/issues/81"
     },
@@ -83,7 +83,7 @@
       "yyyymmdd": 20220124,
       "type": "Feature",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "同一・別名のトピックの統合（名寄せ）を申請できるように",
       "detailUrl": "https://github.com/zenn-dev/zenn-community/issues/362"
     },
@@ -91,7 +91,7 @@
       "yyyymmdd": 20220111,
       "type": "BugFix",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "ユーザーごとに設定できるGoogle Analyticsのトラッキングが1月8日〜11日の間正常に動いていなかった問題の修正",
       "detailUrl": "https://twitter.com/zenn_dev/status/1480741274198372354"
     },
@@ -99,7 +99,7 @@
       "yyyymmdd": 20211220,
       "type": "Feature",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "エディターの自動保存を復元するときに差分を確認できるように",
       "detailHtml": "また、GitHub連携時や公開済みの投稿でもlocalStorageへの自動保存が有効になりました"
     },
@@ -107,7 +107,7 @@
       "yyyymmdd": 20211216,
       "type": "BugFix",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "コードブロックで情報文字列がついていてもシンタックスハイライトが効くように",
       "detailUrl": "https://github.com/zenn-dev/zenn-community/issues/357"
     },
@@ -115,7 +115,7 @@
       "yyyymmdd": 20211216,
       "type": "BugFix",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "アコーディオン（details）内の見出しは目次から除くように",
       "detailUrl": "https://github.com/zenn-dev/zenn-community/issues/355"
     },
@@ -123,35 +123,35 @@
       "yyyymmdd": 20211213,
       "type": "BugFix",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "Webのエディターで本文が1文字以上保存されていないとバックアップが有効にならない問題を修正"
     },
     {
       "yyyymmdd": 20211213,
       "type": "Improve",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "ログイン時にGoogleアカウントの最新のメールアドレスをZennのアカウントに同期するように"
     },
     {
       "yyyymmdd": 20211129,
       "type": "Improve",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "パフォーマンスの改善"
     },
     {
       "yyyymmdd": 20211122,
       "type": "Feature",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "PCで本文の画像を拡大表示できるように"
     },
     {
       "yyyymmdd": 20210916,
       "type": "Feature",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "フォローしているユーザーの投稿をタイムラインで見られるように",
       "detailHtml": "あなたのタイムラインは <a href=\"/following\">https://zenn.dev/following</a>（要ログイン）で確認できます。"
     },
@@ -159,7 +159,7 @@
       "yyyymmdd": 20210914,
       "type": "Improve",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "コメント入力欄の改善",
       "detailHtml": "送信ボタンやプレビューボタンができる限り画面から隠れないように、入力欄の大きさを調整するようにしました。"
     },
@@ -167,7 +167,7 @@
       "yyyymmdd": 20210913,
       "type": "Feature",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "ユーザーのRSSフィードで細かな出力の制御ができるように",
       "detailHtml": "<code>ユーザーのRSSフィードのURL?include_scraps=1</code>というようにクエリに<code>include_scraps=1</code>を指定することで、スクラップもフィードに含まれるようになります。",
       "detailUrl": "https://zenn.dev/zenn/articles/zenn-feed-rss"
@@ -176,7 +176,7 @@
       "yyyymmdd": 20210907,
       "type": "Feature",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "記事やスクラップのコメントを非表示にする（隠す）ことができるように",
       "detailUrl": "https://zenn.dev/zenn/articles/hide-comment"
     },
@@ -184,21 +184,21 @@
       "yyyymmdd": 20210827,
       "type": "Improve",
       "breaking": false,
-      "needUpdateCLI": true,
+      "needUpdateCli": true,
       "title": "シンタックスハイライトでtfを使用できるように"
     },
     {
       "yyyymmdd": 20210825,
       "type": "Improve",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "パフォーマンスのチューニングとSEO周りの最適化"
     },
     {
       "yyyymmdd": 20210719,
       "type": "Feature",
       "breaking": false,
-      "needUpdateCLI": true,
+      "needUpdateCli": true,
       "title": "GitHubリポジトリ連携で画像がアップロードできるように（ベータ版）",
       "detailHtml": "いままでは記事や本に埋め込む画像ファイルを個別にアップロードする必要がありましたが、このアップデートにより画像ファイルをGitHubリポジトリにプッシュすることでアップロードできるようになりました。",
       "detailUrl": "https://zenn.dev/zenn/articles/deploy-github-images"
@@ -207,7 +207,7 @@
       "yyyymmdd": 20210719,
       "type": "Feature",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "キーワード検索の結果のソート条件を変更できるように",
       "detailHtml": "キーワード検索でヒットした記事・本・スクラップのソート条件を変更できるようになりました。"
     },
@@ -215,7 +215,7 @@
       "yyyymmdd": 20210708,
       "type": "Improve",
       "breaking": false,
-      "needUpdateCLI": true,
+      "needUpdateCli": true,
       "title": "コードブロックの対応言語の追加",
       "detailHtml": "prism.jsのアップデートに伴い、CSV、Idris、V言語などのシンタックスハイライトに対応しました。既存の投稿については本文の更新が行われるまで反映されないことがあります。",
       "detailUrl": "https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1240-2021-06-27"
@@ -224,7 +224,7 @@
       "yyyymmdd": 20210706,
       "type": "Improve",
       "breaking": false,
-      "needUpdateCLI": true,
+      "needUpdateCli": true,
       "title": "ZennCLIでサイドバーの記事のソート設定を変更できるように",
       "detailUrl": "https://github.com/zenn-dev/zenn-community/issues/307"
     },
@@ -232,7 +232,7 @@
       "yyyymmdd": 20210702,
       "type": "Improve",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "UIの改善",
       "detailHtml": "トグルメニューがキーボードで操作できるようになりました。その他アプリ全体で細かなUI改善を行いました。"
     },
@@ -240,14 +240,14 @@
       "yyyymmdd": 20210621,
       "type": "Improve",
       "breaking": false,
-      "needUpdateCLI": true,
+      "needUpdateCli": true,
       "title": "KaTeX v0.13へアップデート"
     },
     {
       "yyyymmdd": 20210617,
       "type": "Feature",
       "breaking": false,
-      "needUpdateCLI": false,
+      "needUpdateCli": false,
       "title": "通知タブの改善",
       "detailHtml": "コメントと購入に関する通知だけを表示するタブを追加しました。"
     },
@@ -255,7 +255,7 @@
       "yyyymmdd": 20210617,
       "type": "Improve",
       "breaking": false,
-      "needUpdateCLI": true,
+      "needUpdateCli": true,
       "title": "Zenn CLIの改善",
       "detailHtml": "依存パッケージの80%削減のほか、UIの大幅な改善を行いました。",
       "detailUrl": "https://github.com/zenn-dev/zenn-editor/pull/177"
@@ -264,7 +264,7 @@
       "yyyymmdd": 20210608,
       "type": "Feature",
       "breaking": false,
-      "needUpdateCLI": true,
+      "needUpdateCli": true,
       "title": "mermaid.jsの埋め込みに対応",
       "detailUrl": "https://zenn.dev/zenn/articles/markdown-guide#%E3%83%80%E3%82%A4%E3%82%A2%E3%82%B0%E3%83%A9%E3%83%A0"
     },
@@ -272,7 +272,7 @@
       "yyyymmdd": 20210604,
       "type": "Improve",
       "breaking": false,
-      "needUpdateCLI": true,
+      "needUpdateCli": true,
       "title": "Zenn CLIでサイドバーを非表示にできるように",
       "detailHtml": "Thanks to <a href=\"https://github.com/kazuhe\">@kazuhe</a> 🎉 (<a href=\"https://github.com/zenn-dev/zenn-editor/pull/151\">zenn-dev/zenn-editor#151</a>)"
     },
@@ -390,7 +390,7 @@
       "type": "Feature",
       "breaking": false,
       "title": "YouTubeをURLを貼るだけで埋め込めるように",
-      "needUpdateCLI": true
+      "needUpdateCli": true
     },
     {
       "yyyymmdd": 20210303,
@@ -463,7 +463,7 @@
       "type": "Feature",
       "breaking": false,
       "title": "markdownで<br>を使えるように",
-      "needUpdateCLI": true
+      "needUpdateCli": true
     },
     {
       "yyyymmdd": 20201227,
@@ -486,21 +486,21 @@
       "breaking": false,
       "title": "軽微な改善",
       "detailHtml": "スクラップのUIの改善やパフォーマンスの改善を行いました。",
-      "needUpdateCLI": false
+      "needUpdateCli": false
     },
     {
       "yyyymmdd": 20201219,
       "type": "Improve",
       "breaking": false,
       "title": "記事のコメントで全てのmarkdown記法を使えるように",
-      "needUpdateCLI": false
+      "needUpdateCli": false
     },
     {
       "yyyymmdd": 20201214,
       "type": "Feature",
       "breaking": false,
       "title": "Zenn CLIのプレビューでもリンクのカード化を確認できるように",
-      "needUpdateCLI": true
+      "needUpdateCli": true
     },
     {
       "yyyymmdd": 20201213,
@@ -650,7 +650,7 @@
     {
       "yyyymmdd": 20201027,
       "type": "Feature",
-      "needUpdateCLI": true,
+      "needUpdateCli": true,
       "title": "本の各チャプターに目次を表示できるように",
       "detailHtml": "デフォルトではh1・h2見出しが目次に表示されます。本の設定で見出しのレベルを変更できます。リポジトリで本を管理している場合は<code>config.yaml</code>で目次の設定をします。\n<code>toc_depth: 0</code>で目次を非表示\n<code>toc_depth: 1</code>でh1見出しのみ含める\n<code>toc_depth: 3</code>でh1〜h3見出しを含める\n最大3まで設定できます。",
       "detailUrl": "https://zenn.dev/zenn/articles/zenn-cli-guide#%E6%9C%AC%E3%81%AE%E5%90%84%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E5%BD%B9%E5%89%B2"
@@ -692,7 +692,7 @@
       "yyyymmdd": 20201010,
       "type": "Feature",
       "title": "CodeSandboxとStackBlitzを埋め込み可能に",
-      "needUpdateCLI": true,
+      "needUpdateCli": true,
       "detailUrl": "https://zenn.dev/zenn/articles/markdown-guide#%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF"
     }
   ]

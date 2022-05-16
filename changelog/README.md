@@ -14,7 +14,7 @@
   "detailUrl"?: string;
   "imageUrl"?: string;
   "important"?: boolean;
-  "needUpdateCLI"?: boolean;
+  "needUpdateCli"?: boolean;
 }
 ```
 
