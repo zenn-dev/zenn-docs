@@ -43,6 +43,6 @@ Zenn の[アカウント設定画面](https://zenn.dev/settings/account)から�
 
 紐付けを解除したい場合は、設定ポップアップを開き、**入力欄を空にした状態**で「保存する」を押すことで解除できます。
 
-![](https://storage.googleapis.com/zenn-user-upload/13ba7893a95b-20220511.png =640x)
+![](https://storage.googleapis.com/zenn-user-upload/a1edfdbf558c-20220518.png =640x)
 
 
