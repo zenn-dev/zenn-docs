@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "yyyymmdd": 20220531,
+      "type": "Feature",
+      "breaking": false,
+      "needUpdateCli": false,
+      "title": "再設定用のメールアドレスからアカウントの復元ができるように",
+      "detailUrl": "https://zenn.dev/faq#backup-email"
+    },
+    {
       "yyyymmdd": 20220516,
       "type": "Feature",
       "breaking": false,
