@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "yyyymmdd": 20220609,
+      "type": "Feature",
+      "breaking": false,
+      "needUpdateCli": false,
+      "title": "JCBカードでの決済対応"
+    },
+    {
       "yyyymmdd": 20220608,
       "type": "Feature",
       "breaking": false,
