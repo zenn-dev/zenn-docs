@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "yyyymmdd": 20220616,
+      "type": "Feature",
+      "breaking": false,
+      "needUpdateCli": false,
+      "title": "Apple Pay、Google Payでの決済に対応"
+    },
+    {
       "yyyymmdd": 20220609,
       "type": "Feature",
       "breaking": false,
