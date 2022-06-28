@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "yyyymmdd": 20220628,
+      "type": "Feature",
+      "breaking": false,
+      "needUpdateCli": false,
+      "title": "本の閲覧履歴を自動で保存するように",
+      "detailUrl": "https://github.com/zenn-dev/zenn-community/issues/390",
+      "detailHtml": "使用方法は<a href=\"https://twitter.com/zenn_dev/status/1541687828672700416\">こちら</a>。"
+    },
+    {
       "yyyymmdd": 20220616,
       "type": "Feature",
       "breaking": false,
