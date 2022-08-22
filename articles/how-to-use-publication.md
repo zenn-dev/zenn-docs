@@ -3,7 +3,7 @@ title: "Publicationの使い方"
 emoji: "🪐"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]
-published: false
+published: true
 ---
 
 :::message
