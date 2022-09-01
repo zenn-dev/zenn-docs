@@ -7,7 +7,7 @@ published: true
 ---
 
 :::message
-2022/08/22 現在、Publication機能はベータ版として提供しており、今後仕様が変わる可能性があります。
+2022/8/22 現在、Publication機能はベータ版として提供しており、今後仕様を変更する可能性があります。
 :::
 
 ## Publicationとは
@@ -33,7 +33,7 @@ Publicationとは、個人または組織が、一貫性のあるテーマにつ
 ### Publicationを作成する
 
 :::message
-2022/08/22 現在、Publication機能は利用者を限定して提供しています。利用を希望する方は、こちらの[フォーム](https://docs.google.com/forms/d/e/1FAIpQLSdZvZk18V3Eftc-szrVz8csB93-YwQkSCLBylJQnwGUou-8Lg/viewform)よりご応募ください（2022年8月末まで）なお、応募いただいた全員が利用できるわけではないことはご了承ください。
+2022/9/1 現在、クローズドベータ期間中であるため、新規作成は受け付けておりません。なお、クローズドベータへの参加のお申し込みをされた方へは、参加可能となった場合にのみメールをお送りします。
 :::
 
 ### Publicationの設定を管理する
