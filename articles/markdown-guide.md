@@ -415,7 +415,7 @@ https://github.com/octocat/Spoon-Knife/blob/main/README.md#L1-L3
 https://github.com/octocat/Spoon-Knife/blob/main/README.md#L3
 ```
 
-上記のリンクは以下のように表示されます。
+上記のリンクは、以下のように開始行のみ埋め込まれて表示されます。
 
 https://github.com/octocat/Spoon-Knife/blob/main/README.md#L3
 
