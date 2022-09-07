@@ -46,4 +46,4 @@ https://zenn.dev/zenn/articles/connect-to-github
 上書きの対象かどうかは[スラッグ](https://zenn.dev/zenn/articles/what-is-slug)が同一かどうかにより決まります。
 :::
 
-[^1]: [ダッシュボードのデプロイ設定](https://zenn.dev/dashboard/deploys)から変更できます。
+[^1]: [ダッシュボードのデプロイ設定](https://zenn.dev/dashboard/deploys?tab=repo_settings)から変更できます。
