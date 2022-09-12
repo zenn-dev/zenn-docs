@@ -494,11 +494,11 @@ Figma では、ファイルまたはプロトタイプのページで共有リ�
 
 ![](https://storage.googleapis.com/zenn-user-upload/t87wf3d7xgfv7cabv4a9lfr1t79q)
 
-# その他の埋め込み要素
+## その他の埋め込み可能なコンテンツ
 
-需要が限定的などの理由から記法のみサポートしている埋め込み要素もあります。
+需要が限定的などの理由からオンラインエディターの埋め込みの選択肢としては表示されませんが、以下の埋め込み記法もサポートしています
 
-## blueprintUE
+### blueprintUE
 
 
 ```
@@ -508,7 +508,7 @@ Figma では、ファイルまたはプロトタイプのページで共有リ�
 @[blueprintue](https://blueprintue.com/render/0ovgynk-/)
 ```
 
-[blueprintUE](https://blueprintue.com/) では、公開されているページのURLをそのまま括弧の中に入力します。
+[blueprintUE](https://blueprintue.com/) を埋め込むには、公開されているページのURLをそのまま括弧の中に入力します。
 
 
 # ダイアグラム
