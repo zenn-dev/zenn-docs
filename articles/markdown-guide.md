@@ -480,12 +480,35 @@ CodeSandbox では、各ページから埋め込み用の`<iframe>`を取得で�
 
 StackBlitz では、各ページから「Embed URL」を取得できます。取得した URL をそのまま括弧の中に入力します。
 
+## Figma
+
+```
+@[figma](ファイルまたはプロトタイプのURL)
+```
+
+Figma では、ファイルまたはプロトタイプのページで共有リンクを取得できます。取得したURLをそのまま括弧の中に入力します。
+
 ## オンラインエディターではモーダルから挿入可能
 
 オンラインのエディターでは「+」ボタンを押すことで、外部コンテンツ埋め込み用のモーダルを表示できます。
 
 ![](https://storage.googleapis.com/zenn-user-upload/t87wf3d7xgfv7cabv4a9lfr1t79q)
 
+## その他の埋め込み可能なコンテンツ
+
+オンラインエディターの埋め込みの選択肢としては表示されませんが、以下の埋め込み記法もサポートしています。
+
+### blueprintUE
+
+
+```
+@[blueprintue](ページのURL)
+
+例：
+@[blueprintue](https://blueprintue.com/render/0ovgynk-/)
+```
+
+[blueprintUE](https://blueprintue.com/) を埋め込むには、公開されているページのURLをそのまま括弧の中に入力します。
 
 
 # ダイアグラム
