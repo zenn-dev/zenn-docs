@@ -19,7 +19,7 @@ published: true
 
 ## 表示のON/OFFを切り替える
 
-表示の有無はダッシュボードの[デプロイ](https://zenn.dev/dashboard/deploys)にてリポジトリごとに設定できます。なお、プライベートリポジトリではこのオプションを有効にすることはできません。
+表示の有無はダッシュボードの[リポジトリ設定](https://zenn.dev/dashboard/deploys?tab=repo_settings)からリポジトリごとに設定できます。なお、プライベートリポジトリではこのオプションを有効にすることはできません。
 
 ![](https://storage.googleapis.com/zenn-user-upload/ttpldbh2ftabxj4adfnmhaa1ek8m =420x)
 
