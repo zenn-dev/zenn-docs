@@ -57,6 +57,11 @@ Publicationの基本設定として、以下の項目が設定できます。
 ![](/images/articles/how-to-use-publication/publication_setting.png)
 *Publicationのトップページの表示例*
 
+#### 高度な設定
+
+- **有料バッジの受付**: Publicationに寄稿された記事に対して、バッジを受け付けるかどうかを設定することができます。
+- **本文下の固定メッセージ**: Publicationに寄稿された記事の下部に、任意のメッセージを表示することができます。これを使うことにより、記事本文を編集することなくPublicationとして発信したい共通のメッセージを表示することができます。例えば、自社プロダクトの紹介や採用メッセージの掲載などにご活用ください。
+
 ### Publicationのメンバーを管理する
 
 #### ロール
@@ -113,7 +118,19 @@ Publicationのメンバーは、自身の記事をPublicationに紐付けて寄�
 
 #### メンバーが記事をレビューする
 
-Comming soon...
+Publicationのメンバーは、Publicationに寄稿された下書き状態の記事を閲覧することができます。下書きを閲覧するには、Publicationの記事の管理ページから、対象の記事を選択します。
+
+また、記事の投稿者は、記事の編集ページや記事のプレビューページから、閲覧ページのURLを取得することができます。このURLをPublicationのメンバーに共有することで、記事のレビューを依頼することができます。
+
+![](/images/articles/how-to-use-publication/preview1.png)
+*記事の編集ページの投稿設定ダイアログ*
+
+![](/images/articles/how-to-use-publication/preview2.png)
+*記事のプレビューページ*
+
+:::message
+より高度なレビュー機能を検討しています。現状のプレビュー機能では不足している点、改善してほしい点などがあれば、zenn-community の [issue](https://github.com/zenn-dev/zenn-community/issues/440) にご意見をお寄せください。
+:::
 
 #### オーナーが記事の紐付けを解除する
 
@@ -122,7 +139,7 @@ Comming soon...
 ## よくある質問
 
 :::details Publicationを開設するため、いままでテックブログとして利用していたユーザーアカウントの記事を、個人のユーザーアカウントに移行したい
-移行の対応をいたします。（準備が整い次第、アナウンスいたします。）
+[記事を別のユーザーに付け替えるには](https://zenn.dev/zenn/articles/transfer-article) をご覧ください。
 
 ただし、バッジが贈られた記事については、収益の整合性が合わなくなるため移行することができません。
 :::
