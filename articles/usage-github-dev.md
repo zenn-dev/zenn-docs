@@ -9,7 +9,7 @@ published: true
 ---
 
 :::message
-現在(2022/11/07)、公開されているVSCode拡張は β 版です
+現在(2022/11/08)、公開されているVSCode拡張は β 版です
 :::
 
 Zenn のコンテンツ( 記事・本 )を GitHub 連携している場合、[github.dev](https://github.dev) と [Zenn VSCode拡張](https://marketplace.visualstudio.com/items?itemName=zenn.zenn-preview)を使うことで、ブラウザ上でコンテンツ( 記事・本 )を編集することができます。
