@@ -53,3 +53,8 @@ https://github.com/zenn-dev/zenn-vscode-extension
 https://marketplace.visualstudio.com/items?itemName=zenn.zenn-preview
 
 
+# github.dev 上での Git 操作について
+
+以下のサイトよりご確認ください。
+
+https://docs.github.com/ja/codespaces/the-githubdev-web-based-editor#using-source-control
