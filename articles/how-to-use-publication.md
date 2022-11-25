@@ -103,7 +103,7 @@ Publicationのメンバーにはロールが割り当てられます。ロール
 
 #### 脱退する
 
-全てのメンバーは、Publicationのメンバー管理ページから、Publicationを脱退ことができます。ただし、Publicationにオーナーが1人もいなくなるような操作はできません。
+全てのメンバーは、Publicationのメンバー管理ページから、Publicationを脱退することができます。ただし、Publicationにオーナーが1人もいなくなるような操作はできません。
 
 Publicationを脱退した後も、Publicationに投稿した記事の紐付けはそのまま残ります。Publicationから記事の紐付けを解除する場合は、自身の記事の管理ページより、Publicationへの紐付けを解除します。（GitHubデプロイを利用している場合は、frontmatterの`publication_name`の項目を削除します。）
 
