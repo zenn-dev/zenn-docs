@@ -90,6 +90,10 @@ $ npx zenn preview # プレビュー開始
 デフォルトでは`localhost:8000`で立ち上がりますが`npx zenn preview --port 3000`というようにポート番号の指定もできます。
 :::
 
+:::message
+`npx zenn preview --no-watch`のようにすることでファイルの監視と自動リロードが無効になります。
+:::
+
 ## 記事を公開する
 
 記事を zenn.dev 上で公開するには`published`オプションが`true`になっていることを確認したうえで、ファイルをコミットし、Zenn と連携されている GitHub リポジトリにプッシュします。
