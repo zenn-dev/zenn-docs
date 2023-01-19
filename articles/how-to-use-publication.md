@@ -131,8 +131,6 @@ Publicationのメンバーは、Publicationに投稿された下書き状態の�
 
 また、記事の投稿者は、記事の編集ページや記事のプレビューページから、閲覧ページのURLを取得することができます。このURLをPublicationのメンバーに共有することで、記事のレビューを依頼することができます。
 
-<!-- TODO: 画像を差し替える -->
-
 ![](/images/articles/how-to-use-publication/preview1.png)
 *記事の編集ページの投稿設定ダイアログ*
 
