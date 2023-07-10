@@ -1,7 +1,7 @@
 ---
 title: "GitHubリポジトリ連携で画像をアップロードする方法"
 emoji: "🎆"
-type: "tech" # tech: 技術記事 / idea: アイデア
+type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]
 published: true
 ---
