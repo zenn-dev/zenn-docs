@@ -24,4 +24,4 @@ ZennはGoogle認証でログインを行うため、Googleアカウントを失�
 
 ### 再設定用のメールアドレスを設定していない場合はどうすれば良いですか？
 
-[お問い合わせフォーム](https://docs.google.com/forms/d/e/1FAIpQLSdsDaXjtcHDtqMgxr-KVnLBfBrzOXLyMRGiF0qSoNTFAttZVA/viewform)の「Zennにログインできなくなった」をご確認ください。
+[お問い合わせフォーム](https://zenn.dev/inquiry)の「Zennにログインできなくなった」をご確認ください。
