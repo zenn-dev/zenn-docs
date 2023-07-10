@@ -3,7 +3,7 @@ title: 再設定用のメールアドレスを設定してZennのアカウント
 emoji: "⛳"
 type: idea
 topics: ["zenn"]
-published: false
+published: true
 ---
 
 ZennはGoogle認証でログインを行うため、Zennに紐づいているGoogleアカウントを失効するとZennのアカウントにログインできなくなります。そのような場合に備えて、再設定用のメールアドレスを設定しておくことをおすすめします。再設定用のメールアドレスを設定しておくと、Zennのアカウントを他のGoogleアカウントに紐づけ直すことができます。
