@@ -1,7 +1,7 @@
 ---
 title: "Zenn CLIで記事・本を管理する方法"
 emoji: "🔨"
-type: "tech" # tech: 技術記事 / idea: アイデア
+type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]
 published: true
 ---

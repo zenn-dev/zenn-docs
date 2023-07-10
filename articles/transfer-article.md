@@ -1,8 +1,8 @@
 ---
 title: "記事を別のユーザーに付け替えるには"
 emoji: "🦔"
-type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [zenn]
+type: "idea" # tech: 技術記事 / idea: アイデア
+topics: ["zenn"]
 published: true
 ---
 

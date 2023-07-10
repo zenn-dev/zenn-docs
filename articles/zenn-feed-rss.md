@@ -2,7 +2,7 @@
 title: "ZennをRSSフィードで購読する"
 emoji: "🎞"
 type: "idea" # tech: 技術記事 / idea: アイデア
-topics: ["zenn", "rss"]
+topics: ["zenn"]
 published: true
 ---
 

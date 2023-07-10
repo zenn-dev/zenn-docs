@@ -1,8 +1,8 @@
 ---
 title: "ZennのMarkdown記法一覧"
 emoji: "👩‍💻"
-type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["markdown", "zenn"]
+type: "idea" # tech: 技術記事 / idea: アイデア
+topics: ["zenn"]
 published: true
 ---
 

@@ -1,10 +1,8 @@
 ---
 title: "Zennのコンテンツをgithub.devで編集する"
 emoji: "🧑‍🚀"
-type: "tech" # tech: 技術記事 / idea: アイデア
-topics: 
-  - zenn
-  - github  
+type: "idea" # tech: 技術記事 / idea: アイデア
+topics: ["zenn"]
 published: true
 ---
 
