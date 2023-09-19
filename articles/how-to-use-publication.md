@@ -137,10 +137,6 @@ Publicationのメンバーは、Publicationに投稿された下書き状態の�
 ![](/images/articles/how-to-use-publication/preview2.png)
 *記事のプレビューページ*
 
-:::message
-より高度なレビュー機能を検討しています。現状のプレビュー機能では不足している点、改善してほしい点などがあれば、zenn-community の [issue](https://github.com/zenn-dev/zenn-community/issues/440) にご意見をお寄せください。
-:::
-
 #### オーナーが記事の紐付けを解除する
 
 オーナーは、Publicationの記事の管理ページから、記事の紐付けを解除することができます。
