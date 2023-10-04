@@ -469,6 +469,8 @@ SpeakerDeck で取得した埋め込みコードに含まれる`data-id`の値�
 @[jsfiddle](ページのURL)
 ```
 
+[埋め込みオプション](https://docs.jsfiddle.net/embedding-fiddles)を指定する場合、iframe用の埋め込みURL（ `ページのURL + /embedded/{Tabs}/{Visual}/` ）を入力します。
+
 ## CodeSandbox
 
 ```
