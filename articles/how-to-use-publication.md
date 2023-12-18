@@ -19,6 +19,14 @@ Publicationとは、個人または組織が、一貫性のあるテーマにつ
 
 → [詳しくはこちら（リリースノート）](https://info.zenn.dev/about-publication)
 
+## Publicationのプラン
+
+Publicationには、無料でご利用いただけるFreeプランと、Freeプランの機能を拡張したProプラン（有料プラン）があります。
+
+以下、本ページではFreeプランの範囲の機能について説明します。
+
+Proプランの機能については、[Publication Proの使い方](/zenn/articles/how-to-use-publication-pro)をご覧ください。
+
 ## Publicationの主な機能
 
 ### Publicationのトップページが生成される
@@ -78,26 +86,29 @@ Publicationのメンバーにはロールが割り当てられます。ロール
 | 操作                                        | オーナー | メンテナー | 投稿者 |
 | ------------------------------------------- | :------: | :--------: | :----: |
 | Publicationの設定を編集                    |    ✅     |        |        |
-| Publicationにメンバーを招待                 |    ✅     |    ✅    |        |
-| Publicationのメンバーを除外                 |    ✅     |    ✅    |        |
-| Publicationのメンバーのロールを変更          |    ✅     |    ✅    |        |
-| Publicationから離脱                       |    ✅     |   ✅     |    ✅  |
+| Publicationのメンバーを招待/除外                 |    ✅     |    ✅ (※1)   |        |
+| Publicationのメンバーのロールを変更          |    ✅     |    ✅ (※1)    |        |
 | Publicationに自分の記事を投稿/紐付け解除     |    ✅     |   ✅     |   ✅  |
-| Publicationの他のメンバーの記事を紐付け解除   |    ✅     |    ✅    |        |
+| Publicationの自分以外のメンバーの記事を紐付け解除   |    ✅     |    ✅    |        |
+| Publicationの記事一覧のピン留め(Proプランのみ)   |    ✅     |    ✅    |        |
+| PublicationのPRバナーを管理(Proプランのみ)   |    ✅     |    ✅    |        |
+| Publicationから離脱                       |    ✅     |   ✅     |    ✅  |
+
+※1: メンテナーは、オーナーロールの操作はできません。
 
 #### メンバーを追加する
 
-オーナーは、Publicationのメンバー管理ページから、ZennのユーザーをPublicationのメンバーに招待できます。招待を受け取ったユーザーは、招待メールに記載されたリンクから、招待を承認できます。
+オーナーやメンテナーは、Publicationのメンバー管理ページから、ZennのユーザーをPublicationのメンバーに招待できます。招待を受け取ったユーザーは、招待メールに記載されたリンクから、招待を承認できます。
 
 #### メンバーを除外する
 
-オーナーは、Publicationのメンバー管理ページから、メンバーをPublicationから除外できます。ただし、Publicationにオーナーが1人もいなくなるような操作はできません。
+オーナーやメンテナーは、Publicationのメンバー管理ページから、メンバーをPublicationから除外できます。ただし、Publicationにオーナーが1人もいなくなるような操作はできません。
 
 除外されたメンバーがPublicationに投稿した記事の紐付けは、そのまま残ります。記事の紐付けを解除する場合は、[オーナーが記事の紐付けを解除する](#オーナーが記事の紐付けを解除する)より行います。
 
 #### メンバーのロールを変更する
 
-オーナーは、Publicationのメンバー管理ページから、メンバーのロールを変更できます。ただし、Publicationにオーナーが1人もいなくなるような操作はできません。
+オーナーやメンテナーは、Publicationのメンバー管理ページから、メンバーのロールを変更できます。ただし、Publicationにオーナーが1人もいなくなるような操作はできません。
 
 #### 脱退する
 
@@ -107,7 +118,7 @@ Publicationを脱退した後も、Publicationに投稿した記事の紐付け�
 
 ### Publicationの記事を管理する
 
-#### メンバーが記事を投稿する
+#### 記事を投稿する
 
 Publicationのメンバーは、自身の記事をPublicationに紐付けて投稿できます。
 
@@ -125,11 +136,11 @@ Publicationのメンバーは、自身の記事をPublicationに紐付けて投�
 ![](/images/articles/how-to-use-publication/publication_management.png)
 *Publicationの管理ページ*
 
-#### メンバーが記事をレビューする
+#### 記事の下書きを共有する
 
 Publicationのメンバーは、Publicationに投稿された下書き状態の記事を閲覧できます。下書きを閲覧するには、Publicationの記事の管理ページから、対象の記事を選択します。
 
-また、記事の投稿者は、記事の編集ページや記事のプレビューページから、閲覧ページのURLを取得できます。このURLをPublicationのメンバーに共有することで、記事のレビューを依頼できます。
+また、記事の投稿者は、記事の編集ページや記事のプレビューページから、閲覧ページのURLを取得できます。このURLをPublicationのメンバーに共有することで、公開前の記事をメンバーに見てもらうことができます。
 
 ![](/images/articles/how-to-use-publication/preview1.png)
 *記事の編集ページの投稿設定ダイアログ*
@@ -137,9 +148,9 @@ Publicationのメンバーは、Publicationに投稿された下書き状態の�
 ![](/images/articles/how-to-use-publication/preview2.png)
 *記事のプレビューページ*
 
-#### オーナーが記事の紐付けを解除する
+#### 記事の紐付けを解除する
 
-オーナーは、Publicationの記事の管理ページから、記事の紐付けを解除できます。
+著者またはオーナー・メンテナーは、Publicationの記事の管理ページから、記事の紐付けを解除できます。
 
 ## Publicationの削除
 
@@ -148,6 +159,7 @@ Publicationの削除は [お問合せフォーム](https://zenn.dev/inquiry) の
 :::message alert
 **注意事項**
 
+- Proプランをご利用中の場合、サブスクリプションをキャンセルしてから削除を申請してください。（キャンセルをしていない場合、削除までの間にサブスクリプションが更新される可能性があります。）
 - Publicationの設定はすべて削除されます。
 - Publicationに投稿された記事の紐付けは解除されます。（Publicationの設定で有料バッチの受付をOFFにしている場合、記事の紐付けが解除されるとユーザーの設定に切り替わります。）
 - Publicationのフォローは解除されます。
