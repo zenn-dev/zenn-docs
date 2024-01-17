@@ -25,7 +25,7 @@ Publicationには、無料でご利用いただけるFreeプランと、Freeプ�
 
 以下、本ページではFreeプランの範囲の機能について説明します。
 
-Proプランの機能については、[Publication Proの使い方](/zenn/articles/how-to-use-publication-pro)をご覧ください。
+Proプランの機能については、[Publication Proの使い方](/zenn/articles/publication-pro-features)をご覧ください。
 
 ## Publicationの主な機能
 
