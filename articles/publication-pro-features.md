@@ -6,10 +6,6 @@ topics: ["zenn"]
 published: true
 ---
 
-:::message
-2023-12-18現在、Proプランは一般公開されていません。一般公開は2024年1月を予定しています。
-:::
-
 ## Publication Proとは
 
 Publication Proは、無料で利用できるPublication Freeプランに、組織活動やブランディングをサポートする機能を追加した有料プランです。
@@ -116,14 +112,10 @@ Publicationのダッシュボードページから「統計」ページに遷移
 ProプランはFreeプランからアップグレードすることによって利用できます。まだPublicationを作成していない場合は、Publicationの[作成申請ページ](https://zenn.dev/enter-publication)より申請を行ってください。
 
 :::message
-2023-12-18現在、Proプランは一般公開されていません。一般公開は2024年1月を予定しています。
-:::
-
-:::message
 Proプランは法人契約されているPublicationでのみご利用いただけます。
 
 - これからPublicationを申請される場合は「法人契約」を選択してください。
-- オープンベータ期間中にPublicationを作成された場合は、法人契約の申請を行っていただく必要があります。申請は[お問合せフォーム](https://zenn.dev/inquiry)の「Publicationの契約変更手続き」から行ってください。
+- オープンベータ期間中（2024年1月22日まで）にPublicationを作成された場合は、法人契約の申請を行っていただく必要があります。申請は[お問合せフォーム](https://zenn.dev/inquiry)の「Publicationの契約変更手続き」から行ってください。
 :::
 
 ### サブスクリプションの開始
