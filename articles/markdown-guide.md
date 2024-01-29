@@ -55,7 +55,6 @@ published: true
 ```
 
 [アンカーテキスト](https://zenn.dev)
-`Ctrl + K`のショートカットでも挿入できます。
 
 # 画像
 
