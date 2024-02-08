@@ -55,25 +55,34 @@ published: true
 ```
 
 [アンカーテキスト](https://zenn.dev)
-`Ctrl + K`のショートカットでも挿入できます。
+
+記事や本のチャプターのエディタでは、テキストを範囲選択した状態でURLをペーストすることで選択範囲がリンクになります。
 
 # 画像
 
 ```
-![altテキスト](https://画像のURL)
+![](https://画像のURL)
 ```
 
-![altテキスト](https://storage.googleapis.com/zenn-user-upload/gxnwu3br83nsbqs873uibiy6fd43)
+![](https://storage.googleapis.com/zenn-user-upload/gxnwu3br83nsbqs873uibiy6fd43)
 
 ## 画像の横幅を指定する
 
 画像の表示が大きすぎる場合は、URL の後に半角スペースを空けて`=○○x`と記述すると、画像の幅を px 単位で指定できます。
 
 ```
-![altテキスト](https://画像のURL =250x)
+![](https://画像のURL =250x)
 ```
 
-![altテキスト](https://storage.googleapis.com/zenn-user-upload/gxnwu3br83nsbqs873uibiy6fd43 =250x)
+![](https://storage.googleapis.com/zenn-user-upload/gxnwu3br83nsbqs873uibiy6fd43 =250x)
+
+## Altテキストを指定する
+
+```
+![Altテキスト](https://画像のURL)
+```
+
+![Altテキスト](https://storage.googleapis.com/zenn-user-upload/gxnwu3br83nsbqs873uibiy6fd43 =250x)
 
 ## キャプションをつける
 
@@ -85,14 +94,14 @@ published: true
 ```
 
 ![](https://storage.googleapis.com/zenn-user-upload/gxnwu3br83nsbqs873uibiy6fd43 =250x)
-_captions_
+*キャプション*
 
 ## 画像にリンクを貼る
 
 以下のようにすることで画像に対してリンクを貼ることもできます。
 
 ```
-[![altテキスト](画像のURL)](リンクのURL)
+[![](画像のURL)](リンクのURL)
 ```
 
 # テーブル
@@ -142,7 +151,7 @@ const great = () => {
 
 ## diff のシンタックスハイライト
 
-2021/01/25〜、`diff`と言語のハイライトを同時に適用できるようになりました。以下のように`diff`と`言語名`を半角スペース区切りで指定します。
+`diff`と言語のハイライトを同時に適用するには、以下のように`diff`と`言語名`を半角スペース区切りで指定します。
 
 > \```diff js
 >
@@ -211,9 +220,9 @@ $$
 
 
 
-# 注釈
+# 脚注
 
-注釈を指定するとページ下部にその内容が表示されます。
+脚注を指定するとページ下部にその内容が表示されます。
 
 ```
 脚注の例[^1]です。インライン^[脚注の内容その2]で書くこともできます。
@@ -295,11 +304,6 @@ _イタリック_
 表示したい内容
 :::
 
-
-:::message
-「detail」ではなく「details」です。
-:::
-
 ### 要素をネストさせるには
 
 外側の要素の開始/終了に `:` を追加します。
@@ -359,7 +363,7 @@ https://twitter.com/jack/status/20
 https://x.com/jack/status/20
 ```
 
-以前は`@[tweet](ポストのURL)`の記法を採用していましたが、2020/12/27〜URL を貼り付けるだけでポストを埋め込むことが可能になりました。
+以前は`@[tweet](ポストのURL)`の記法を採用していましたが、現在はポストのURLを貼り付けるだけで埋め込みが表示されます。
 
 :::details アンダースコア _ を含む URL が正しく認識されない場合
 [markdown パーサの仕様](https://zenn.dev/catnose99/scraps/e94c8e789f846a)により、URL の`/`の区切りの中に 2 つ以上アンダースコア（`_`）を含むと、自動リンクが途中で途切れてしまいます。
@@ -386,11 +390,10 @@ https://twitter.com/__example__/status/12345678910
 https://www.youtube.com/watch?v=WRVsOCh907o
 ```
 
-以前は`@[youtube](YouTubeの動画ID)`という記法を採用していましたが、2021/03/03〜URL を貼り付けるだけで動画を埋め込むことが可能になりました。
+以前は`@[youtube](YouTubeの動画ID)`という記法を採用していましたが、現在は動画URLを貼り付けるだけで動画を埋め込むことができます。
 
 ## GitHub
 
-2022/04〜より、GitHub上のソースコードファイルを埋め込めるようになりました。
 GitHub上のファイルへのURLまたはパーマリンクだけの行を作成すると、その部分にGitHubの埋め込みが表示されます。
 
 ```bash
@@ -440,7 +443,9 @@ https://github.com/zenn-dev/zenn-editor/blob/canary/packages/zenn-cli/images/exa
 @[gist](GistのページURL)
 ```
 
-2020/12/28〜対応しました。特定のファイルだけ埋め込みたい場合は`@[gist](https://gist.github.com/foo/bar?file=example.json)`のようにクエリ文字列で`?file=ファイル名`という形で指定します。
+GistのページURLを指定します。
+
+特定のファイルだけ埋め込みたい場合は`@[gist](https://gist.github.com/foo/bar?file=example.json)`のようにクエリ文字列で`?file=ファイル名`という形で指定します。
 
 ## CodePen
 
@@ -523,7 +528,7 @@ Figma では、ファイルまたはプロトタイプのページで共有リ�
 
 # ダイアグラム
 
-2021/06/08〜、[mermaid.js](https://mermaid-js.github.io/mermaid/#/) によるダイアグラム表示に対応しました。コードブロックの言語名を`mermaid`とすることで自動的にレンダリングされます。
+[mermaid.js](https://mermaid-js.github.io/mermaid/#/) によるダイアグラム表示に対応しています。コードブロックの言語名を`mermaid`とすることで自動的にレンダリングされます。
 
 ~~~
 ```mermaid
@@ -583,3 +588,5 @@ graph LR
 ```
 
 便利ですが、数が多くなるとノードの接続が多くなり、ブラウザ側での描画に負荷が生じる可能性があるため、`&`の数を**10**に制限させていただきます。こちらも超えた場合はダイアグラムの代わりにエラーメッセージが表示されます。
+
+---
