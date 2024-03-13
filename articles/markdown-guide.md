@@ -8,7 +8,7 @@ published: true
 
 このページでは Zenn のmarkdown記法を一覧で紹介します。
 
-# 見出し
+## 見出し
 
 ```
 # 見出し1
@@ -22,7 +22,7 @@ published: true
 :::
 
 
-# リスト
+## リスト
 
 ```
 - Hello!
@@ -38,7 +38,7 @@ published: true
 
 リストのアイテムには`*`もしくは`-`を使います。
 
-## 番号付きリスト
+### 番号付きリスト
 
 ```
 1. First
@@ -48,7 +48,7 @@ published: true
 1. First
 2. Second
 
-# テキストリンク
+## テキストリンク
 
 ```
 [アンカーテキスト](リンクのURL)
@@ -56,9 +56,9 @@ published: true
 
 [アンカーテキスト](https://zenn.dev)
 
-記事や本のチャプターのエディタでは、テキストを範囲選択した状態でURLをペーストすることで選択範囲がリンクになります。
+Markdownエディタでは、テキストを範囲選択した状態でURLをペーストすることで選択範囲がリンクになります。（[参照](https://info.zenn.dev/2024-02-08-editor-update)）
 
-# 画像
+## 画像
 
 ```
 ![](https://画像のURL)
@@ -66,7 +66,7 @@ published: true
 
 ![](https://storage.googleapis.com/zenn-user-upload/gxnwu3br83nsbqs873uibiy6fd43)
 
-## 画像の横幅を指定する
+### 画像の横幅を指定する
 
 画像の表示が大きすぎる場合は、URL の後に半角スペースを空けて`=○○x`と記述すると、画像の幅を px 単位で指定できます。
 
@@ -76,7 +76,7 @@ published: true
 
 ![](https://storage.googleapis.com/zenn-user-upload/gxnwu3br83nsbqs873uibiy6fd43 =250x)
 
-## Altテキストを指定する
+### Altテキストを指定する
 
 ```
 ![Altテキスト](https://画像のURL)
@@ -84,7 +84,7 @@ published: true
 
 ![Altテキスト](https://storage.googleapis.com/zenn-user-upload/gxnwu3br83nsbqs873uibiy6fd43 =250x)
 
-## キャプションをつける
+### キャプションをつける
 
 画像のすぐ下の行に`*`で挟んだテキストを配置すると、キャプションのような見た目で表示されます。
 
@@ -96,7 +96,7 @@ published: true
 ![](https://storage.googleapis.com/zenn-user-upload/gxnwu3br83nsbqs873uibiy6fd43 =250x)
 *キャプション*
 
-## 画像にリンクを貼る
+### 画像にリンクを貼る
 
 以下のようにすることで画像に対してリンクを貼ることもできます。
 
@@ -104,7 +104,7 @@ published: true
 [![](画像のURL)](リンクのURL)
 ```
 
-# テーブル
+## テーブル
 
 ```
 | Head | Head | Head |
@@ -118,7 +118,7 @@ published: true
 | Text | Text | Text |
 | Text | Text | Text |
 
-# コードブロック
+## コードブロック
 
 コードは「```」で挟むことでブロックとして挿入できます。以下のように言語を指定するとコードへ装飾（シンタックスハイライト）が適用されます。
 
@@ -135,7 +135,7 @@ const great = () => {
 シンタックスハイライトには Prism.js を使用しています。
 [📄 対応言語の一覧 →](https://prismjs.com/#supported-languages)
 
-## ファイル名を表示する
+### ファイル名を表示する
 
 `言語:ファイル名`と`:`区切りで記載することで、ファイル名がコードブロックの上部に表示されるようになります。
 
@@ -149,7 +149,7 @@ const great = () => {
 }
 ```
 
-## diff のシンタックスハイライト
+### diff のシンタックスハイライト
 
 `diff`と言語のハイライトを同時に適用するには、以下のように`diff`と`言語名`を半角スペース区切りで指定します。
 
@@ -177,14 +177,14 @@ const great = () => {
 -    let foo = bar.baz([1, 2, 3]);
 ```
 
-# 数式
+## 数式
 
 Zenn では**KaTeX**による数式表示に対応しています。
 KaTeXのバージョンは常に最新バージョンを使用します。
 
 [📄 KaTeXがサポートする記法の一覧 →](https://katex.org/docs/support_table.html)
 
-## 数式のブロックを挿入する
+### 数式のブロックを挿入する
 
 `$$`で記述を挟むことで、数式のブロックが挿入されます。たとえば
 
@@ -204,11 +204,11 @@ $$
 `$$`の前後は空の行でないと正しく埋め込まれないことがあります。
 :::
 
-## インラインで数式を挿入する
+### インラインで数式を挿入する
 
 `$a\ne0$`というように`$`ひとつで挟むことで、インラインで数式を含めることができます。たとえば$a\ne0$のようなイメージです。
 
-# 引用
+## 引用
 
 ```
 > 引用文
@@ -218,9 +218,7 @@ $$
 > 引用文
 > 引用文
 
-
-
-# 脚注
+## 脚注
 
 脚注を指定するとページ下部にその内容が表示されます。
 
@@ -234,7 +232,7 @@ $$
 
 [^1]: 脚注の内容その 1
 
-# 区切り線
+## 区切り線
 
 ```
 -----
@@ -242,7 +240,7 @@ $$
 
 ---
 
-# インラインスタイル
+## インラインスタイル
 
 ```
 *イタリック*
@@ -256,7 +254,7 @@ _イタリック_
 ~~打ち消し線~~
 インラインで`code`を挿入する
 
-## インラインのコメント
+### インラインのコメント
 
 自分用のメモをしたいときは HTML のコメント記法を使用できます。
 
@@ -268,9 +266,9 @@ _イタリック_
 
 この形式で書いたコメントは公開されたページ上では表示されません。ただし、複数行のコメントには対応していないのでご注意ください。
 
-# Zenn 独自の記法
+## Zenn 独自の記法
 
-## メッセージ
+### メッセージ
 
 ```
 :::message
@@ -292,7 +290,7 @@ _イタリック_
 警告メッセージをここに
 :::
 
-## アコーディオン（トグル）
+### アコーディオン（トグル）
 
 ```
 :::details タイトル
@@ -304,7 +302,7 @@ _イタリック_
 表示したい内容
 :::
 
-### 要素をネストさせるには
+#### 要素をネストさせるには
 
 外側の要素の開始/終了に `:` を追加します。
 
@@ -322,9 +320,9 @@ _イタリック_
 :::
 ::::
 
-# コンテンツの埋め込み
+## コンテンツの埋め込み
 
-## リンクカード
+### リンクカード
 
 ```bash
 # URLだけの行
@@ -353,7 +351,7 @@ https://zenn.dev/__example__
 2. 単純にリンク化された URL を貼り付けたい場合は`<https://zenn.dev/__example__>`のような形で`<`と`>`で URL を囲むようにしてください
 :::
 
-## X（Twitter）のポスト（ツイート）
+### X（Twitter）のポスト（ツイート）
 
 ```bash
 # ポストのURLだけの行（前後に改行が必要です）
@@ -379,11 +377,11 @@ https://twitter.com/__example__/status/12345678910
 このような URL では`@[tweet](ポストのURL)`という書き方をしていただくようお願いします。
 :::
 
-### リプライ元のポストを非表示にする
+#### リプライ元のポストを非表示にする
 
 リプライを埋め込んだ場合、デフォルトでリプライ元のポスト含まれて表示されます。`ポストのURL?conversation=none`のようにクエリパラメータに`conversation=none`を指定すると、リプライ元のポストが含まれなくなります。
 
-## YouTube
+### YouTube
 
 ```bash
 # YouTubeのURLだけの行（前後に改行が必要です）
@@ -392,7 +390,7 @@ https://www.youtube.com/watch?v=WRVsOCh907o
 
 以前は`@[youtube](YouTubeの動画ID)`という記法を採用していましたが、現在は動画URLを貼り付けるだけで動画を埋め込むことができます。
 
-## GitHub
+### GitHub
 
 GitHub上のファイルへのURLまたはパーマリンクだけの行を作成すると、その部分にGitHubの埋め込みが表示されます。
 
@@ -406,7 +404,7 @@ https://github.com/octocat/Hello-World/blob/master/README
 https://github.com/octocat/Hello-World/blob/master/README
 
 
-### 行の指定
+#### 行の指定
 
 GitHubと同じように、リンクの末尾に`#L00-L00`のような形で表示するファイルの開始行と終了行を指定することができます。
 
@@ -430,14 +428,14 @@ https://github.com/octocat/Spoon-Knife/blob/main/README.md#L3
 
 https://github.com/octocat/Spoon-Knife/blob/main/README.md#L3
 
-### テキストファイル以外は埋め込めません
+#### テキストファイル以外は埋め込めません
 
 埋め込めるファイルは、ソースコードなどのテキストファイルのみとなっています。
 もし画像などのファイルを指定した場合は、以下のような表示になります。
 
 https://github.com/zenn-dev/zenn-editor/blob/canary/packages/zenn-cli/images/example-images/zenn-editor.png
 
-## GitHub Gist
+### GitHub Gist
 
 ```bash
 @[gist](GistのページURL)
@@ -447,7 +445,7 @@ GistのページURLを指定します。
 
 特定のファイルだけ埋め込みたい場合は`@[gist](https://gist.github.com/foo/bar?file=example.json)`のようにクエリ文字列で`?file=ファイル名`という形で指定します。
 
-## CodePen
+### CodePen
 
 ```
 @[codepen](ページのURL)
@@ -455,7 +453,7 @@ GistのページURLを指定します。
 
 デフォルトの表示タブは`ページのURL?default-tab=html,css`のようにクエリを指定することで変更できます。
 
-## SlideShare
+### SlideShare
 
 ```
 @[slideshare](スライドのkey)
@@ -463,7 +461,7 @@ GistのページURLを指定します。
 
 SlideShare の埋め込み iframe に含まれる`...embed_code/key/○○...`の`◯◯`の部分を入力します。
 
-## SpeakerDeck
+### SpeakerDeck
 
 ```
 @[speakerdeck](スライドのID)
@@ -471,7 +469,7 @@ SlideShare の埋め込み iframe に含まれる`...embed_code/key/○○...`�
 
 SpeakerDeck で取得した埋め込みコードに含まれる`data-id`の値を入力します。
 
-## JSFiddle
+### JSFiddle
 
 ```
 @[jsfiddle](ページのURL)
@@ -479,7 +477,7 @@ SpeakerDeck で取得した埋め込みコードに含まれる`data-id`の値�
 
 [埋め込みオプション](https://docs.jsfiddle.net/embedding-fiddles)を指定する場合、iframe用の埋め込みURL（ `ページのURL + /embedded/{Tabs}/{Visual}/` ）を入力します。
 
-## CodeSandbox
+### CodeSandbox
 
 ```
 @[codesandbox](embed用のURL)
@@ -487,7 +485,7 @@ SpeakerDeck で取得した埋め込みコードに含まれる`data-id`の値�
 
 CodeSandbox では、各ページから埋め込み用の`<iframe>`を取得できます。この`<iframe>`に含まれる`src`の URL を括弧の中に入力します。
 
-## StackBlitz
+### StackBlitz
 
 ```
 @[stackblitz](embed用のURL)
@@ -495,7 +493,7 @@ CodeSandbox では、各ページから埋め込み用の`<iframe>`を取得で�
 
 StackBlitz では、各ページから「Embed URL」を取得できます。取得した URL をそのまま括弧の中に入力します。
 
-## Figma
+### Figma
 
 ```
 @[figma](ファイルまたはプロトタイプのURL)
@@ -503,18 +501,17 @@ StackBlitz では、各ページから「Embed URL」を取得できます。取
 
 Figma では、ファイルまたはプロトタイプのページで共有リンクを取得できます。取得したURLをそのまま括弧の中に入力します。
 
-## オンラインエディターではモーダルから挿入可能
+### オンラインエディターではモーダルから挿入可能
 
 オンラインのエディターでは「+」ボタンを押すことで、外部コンテンツ埋め込み用のモーダルを表示できます。
 
 ![](https://storage.googleapis.com/zenn-user-upload/t87wf3d7xgfv7cabv4a9lfr1t79q)
 
-## その他の埋め込み可能なコンテンツ
+### その他の埋め込み可能なコンテンツ
 
 オンラインエディターの埋め込みの選択肢としては表示されませんが、以下の埋め込み記法もサポートしています。
 
-### blueprintUE
-
+#### blueprintUE
 
 ```
 @[blueprintue](ページのURL)
@@ -525,8 +522,7 @@ Figma では、ファイルまたはプロトタイプのページで共有リ�
 
 [blueprintUE](https://blueprintue.com/) を埋め込むには、公開されているページのURLをそのまま括弧の中に入力します。
 
-
-# ダイアグラム
+## ダイアグラム
 
 [mermaid.js](https://mermaid-js.github.io/mermaid/#/) によるダイアグラム表示に対応しています。コードブロックの言語名を`mermaid`とすることで自動的にレンダリングされます。
 
@@ -557,19 +553,19 @@ graph TB
 mermaid.js側で破壊的変更が行われた場合、表示が変更されたり、適切に表示されなくなる可能性があります。
 :::
 
-## 制限事項
+### 制限事項
 
 Zenn で mermaid.js 対応を行うにあたり、いくつか制限事項を設定させていただいています。制限事項は今後も様子を見て追加・廃止・値の変更など行う可能性があります。
 
-### クリックイベントの無効化
+#### クリックイベントの無効化
 
 [Interaction機能](https://mermaid-js.github.io/mermaid/#/classDiagram?id=interaction)として図の要素にクリックイベントなどが設定できますが、セキュリティの観点でZennでは無効にさせていただきます。
 
-### ブロックあたりの文字数制限 - 2000文字以内
+#### ブロックあたりの文字数制限 - 2000文字以内
 
 ブロックあたりの文字数を**2000**文字に制限させていただいています。これを超えた場合、ダイアグラムが表示される代わりにエラーメッセージが表示されます。
 
-### ブロックあたりのChain数制限 - 10以下
+#### ブロックあたりのChain数制限 - 10以下
 
 フローチャートにおいて、ノードをひとまとまりで表現する記述として`&`が利用できます。以下のようなイメージです。
 
@@ -588,5 +584,13 @@ graph LR
 ```
 
 便利ですが、数が多くなるとノードの接続が多くなり、ブラウザ側での描画に負荷が生じる可能性があるため、`&`の数を**10**に制限させていただきます。こちらも超えた場合はダイアグラムの代わりにエラーメッセージが表示されます。
+
+## 入力補完
+
+以下はMarkdown記法ではありませんが、Markdownエディタで利用できる入力補完機能についても紹介します。
+
+### 絵文字（Emoji）
+
+`:`に続いて任意の1文字を入力すると、絵文字の候補が表示されます。
 
 ---
