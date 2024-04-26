@@ -6,10 +6,6 @@ topics: ["zenn"]
 published: true
 ---
 
-:::message
-2021/07/19 現在、CLI での画像管理機能はベータ版として提供しており、今後仕様が変わる可能性があります。
-:::
-
 GitHub リポジトリ連携機能により、GitHub リポジトリで管理されている画像を Zenn にアップロードすることができます。
 
 ## 画像ファイルの配置ルール
@@ -52,7 +48,7 @@ GitHub リポジトリ連携機能により、GitHub リポジトリで管理さ
 ## Zenn CLI でプレビュー
 
 :::message
-対応バージョン: `0.1.93` 以降
+対応バージョンは `0.1.93` 以降です。
 📘 [Zenn CLI の導入がまだの方はこちら](https://zenn.dev/zenn/articles/install-zenn-cli)
 :::
 
