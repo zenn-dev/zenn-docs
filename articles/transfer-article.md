@@ -3,7 +3,7 @@ title: "記事を別のユーザーに付け替えるには"
 emoji: "🦔"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]
-published: true
+published: false
 ---
 
 Publication機能の正式リリース前に作成された記事を対象として、希望される記事を他のユーザーに付け替える対応をいたします。Like数やコメント、投稿日などを維持したまま、記事を他のユーザーのものにすることができます。
