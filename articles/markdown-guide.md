@@ -477,7 +477,7 @@ SpeakerDeck で取得した埋め込みコードに含まれる`data-id`の値�
 @[docswell](埋め込み用のURL)
 ```
 
-スライドのURL（ `https://www.docswell.com/s/{UserId}/{SlideId}` ）、もしくは埋め込み用のURL( `https://www.docswell.com/slide/{SlideId}/embed` )を入力します。
+スライドのURL（ `https://www.docswell.com/s/{UserId}/{SlideId}-xxx-xxx` ）、もしくは埋め込み用のURL( `https://www.docswell.com/slide/{SlideId}/embed` )を入力します。
 
 ### JSFiddle
 
