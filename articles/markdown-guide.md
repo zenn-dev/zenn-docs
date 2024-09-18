@@ -469,6 +469,16 @@ SlideShare の埋め込み iframe に含まれる`...embed_code/key/○○...`�
 
 SpeakerDeck で取得した埋め込みコードに含まれる`data-id`の値を入力します。
 
+### Docswell
+
+```
+@[docswell](スライドのURL)
+# もしくは
+@[docswell](埋め込み用のURL)
+```
+
+スライドのURL（ `https://www.docswell.com/s/{UserId}/{SlideId}-xxx-xxx` ）、もしくは埋め込み用のURL( `https://www.docswell.com/slide/{SlideId}/embed` )を入力します。
+
 ### JSFiddle
 
 ```
