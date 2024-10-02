@@ -1,5 +1,5 @@
 ---
-title: "PWAとして使用する"
+title: "ZennをPWAとして使用する"
 emoji: "📱"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]
