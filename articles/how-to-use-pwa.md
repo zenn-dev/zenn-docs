@@ -21,6 +21,8 @@ PWA（Progressive Web Apps）を利用することで、Zennをアプリのよ�
 1. Google Chromeで zenn.dev を開きます
 2. アドレスバー内の右側にあるインストールボタンをクリックします（もしくは、アドレスバーの右にある「︙」 > 「キャスト、保存、共有」 > 「ページをアプリとしてインストール」を選択します。）
 
+![](/images/articles/how-to-use-pwa.md/pc-chrome.png)
+
 ### iOSの場合
 
 1. Safariで zenn.dev を開きます
