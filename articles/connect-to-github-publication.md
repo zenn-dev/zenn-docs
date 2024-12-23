@@ -120,13 +120,16 @@ https://zenn.dev/zenn/articles/how-to-use-publication
 4. Publication連携リポジトリにおいて記事デプロイを実施する
 5. （1の手順で設定を無効にした場合）「このリポジトリ以外からの投稿・更新を禁止する」を再度有効化する
 
+次の記事もあわせてご確認ください。
+
+https://zenn.dev/zenn/articles/setup-zenn-github-with-export
+
 ### アカウント連携リポジトリからの記事の移行
 
 アカウント連携リポジトリからPublication連携リポジトリに記事の管理を移行したい場合、以下の手順を実施します。
 
 1. （設定が有効になっている場合）「このリポジトリ以外からの投稿・更新を禁止する」を一時的に無効化する
 2. 移行したい記事が対象のPublicationに紐づいていることを確認（Publicationに紐づいていない場合は、アカウント連携リポジトリ内の `publication_name` frontmatterを編集して紐づける）
-3. 移行したい記事ファイル（と画像ファイル）をPublication連携リポジトリに移動する
+3. 移行したい記事ファイル（と画像ファイル）を[slug](https://zenn.dev/zenn/articles/what-is-slug)が同一となるようにPPublication連携リポジトリに移動する
 4. Publication連携リポジトリにおいて記事デプロイを実施する
 5. （1の手順で設定を無効にした場合）「このリポジトリ以外からの投稿・更新を禁止する」を再度有効化する
-
