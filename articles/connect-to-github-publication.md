@@ -1,6 +1,6 @@
 ---
 title: "PublicationにGitHubリポジトリを連携してZennのコンテンツを管理する"
-emoji: "😸"
+emoji: "😼"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]
 published: true
