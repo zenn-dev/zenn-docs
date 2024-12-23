@@ -19,7 +19,7 @@ https://zenn.dev/zenn/articles/connect-to-github
 
 ## GitHub連携の実施
 
-PublicationのダッシュボードよりGitHub連携が可能です（`https://zenn.dev/dashboard/publications/{publication_name}/deploys`）。
+[Publicationのダッシュボード](https://zenn.dev/dashboard/publications)よりGitHub連携が可能です。
 
 ![](/images/articles/publication-pro-features/publication-github-connect.png)
 
@@ -32,7 +32,10 @@ Publicationに連携可能なリポジトリは1つまでです。
 :::message
 すでにGitHubアカウント/Organization配下のリポジトリにZennアカウントを連携している場合、さらに同じGitHubアカウント/OrganizationにPublicationを連携することはできません。これはGitHub Appsの仕様になります。
 
-Zenn運営としては、あらかじめ組織のGitHub Organizationを用意し、アカウント連携はGitHubアカウント配下のリポジトリを、Publicationに対する連携はOrganization配下のリポジトリをそれぞれ連携することを推奨しています。
+Zenn運営としては、あらかじめ組織のGitHub Organizationを用意し、以下のような形で連携することを推奨しています。
+
+- Zenn個人アカウントに対して連携はGitHub個人アカウント配下のリポジトリを連携する
+- Publicationに対してはOrganization配下のリポジトリを連携する
 :::
 
 ## ディレクトリ構造
@@ -52,15 +55,15 @@ Publication連携リポジトリにおけるディレクトリは以下のよう
 
 ```tree
 .
-├── zenn
+├── example_user1
 │   ├── articles
 │   │   └── publication-pro-features.md
 │   └── images
 │       ├── example.png
 │       └── example.jpg
-└── dyoshikawa
+└── example_user2
     ├── articles
-    │   └── zenn-check-spam-by-llm.md
+    │   └── how-to-use-publication.md
     └── images
         └── example.png
 ```
@@ -75,7 +78,7 @@ Publication連携リポジトリにおけるディレクトリは以下のよう
 
 記事において、 `{username}/images/` に配置した画像を貼り付ける場合は、ユーザー名ディレクトリ（`{username}/`）直下からの `/images` で始まるパスを指定します。
 
-例えば、 `zenn/images/example.png` を `zenn/articles/publication-pro-features.md` 内で使用する場合、
+例えば、 `example_user1/images/example.png` を `example_user1/articles/publication-pro-features.md` 内で使用する場合、
 
 ```md
 ![](/images/example.png)
@@ -86,7 +89,7 @@ Publication連携リポジトリにおけるディレクトリは以下のよう
 :::message
 記事の配置場所と異なるユーザー名ディレクトリ下の画像ファイルを貼り付けることはできません。
 
-例えば、`dyoshikawa/images/example.png` を `zenn/articles/publication-pro-features.md` 内で使用することはできません。
+例えば、`example_user2/images/example.png` を `example_user1/articles/publication-pro-features.md` 内で使用することはできません。
 :::
 
 ## Publication連携リポジトリ以外からの投稿・更新の制限
@@ -113,7 +116,7 @@ https://zenn.dev/zenn/articles/how-to-use-publication
 
 1. （設定が有効になっている場合）「このリポジトリ以外からの投稿・更新を禁止する」を一時的に無効化する
 2. 移行したい記事が対象のPublicationに紐づいていることを確認（Publicationに紐づいていない場合は、Webエディター上の操作で紐づける）
-3. 移行したい記事ファイル（と画像ファイル）をPublication連携リポジトリに作成する
+3. 移行したい記事ファイル（と画像ファイル）を[slug](https://zenn.dev/zenn/articles/what-is-slug)が同一となるようにPublication連携リポジトリに作成する
 4. Publication連携リポジトリにおいて記事デプロイを実施する
 5. （1の手順で設定を無効にした場合）「このリポジトリ以外からの投稿・更新を禁止する」を再度有効化する
 
