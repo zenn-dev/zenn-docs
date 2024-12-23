@@ -120,7 +120,17 @@ https://zenn.dev/zenn/articles/how-to-use-publication
 4. Publication連携リポジトリにおいて記事デプロイを実施する
 5. （1の手順で設定を無効にした場合）「このリポジトリ以外からの投稿・更新を禁止する」を再度有効化する
 
-次の記事もあわせてご確認ください。
+Webエディタから記事の内容を取得する場合、次の方法を参照してください。
+
+#### 個別の記事をMarkdownに出力する
+
+個人アカウントの[記事一覧ページ](https://zenn.dev/dashboard/articles)で、ドロップダウンメニューより「内容をMarkdownで出力」を選んでご利用ください。
+
+![](/images/connect-to-github-publication/2024-12-23-17-56-00.png)
+
+#### すべてのコンテンツをファイルへエクスポートする
+
+次の記事をご確認ください。
 
 https://zenn.dev/zenn/articles/setup-zenn-github-with-export
 
