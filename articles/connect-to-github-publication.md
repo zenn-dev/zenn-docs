@@ -6,7 +6,7 @@ topics: ["zenn"]
 published: true
 ---
 
-[Publication Pro](https://zenn.dev/zenn/articles/publication-pro-features)では、PublicationそのものにGitHubリポジトリを連携することができます。メンバー全員の記事を1つのGitHubリポジトリで管理することにより、組織の統制や統一されたCIの整備が柔軟に行えるようになります。
+[Publication Pro](https://zenn.dev/zenn/articles/publication-pro-features)では、PublicationそのものにGitHubリポジトリを連携することができます。メンバー全員の記事を1つのGitHubリポジトリで管理することにより、組織のポリシーに沿った統制やCIの整備が柔軟に行えるようになります。
 
 Zennアカウントに対するGitHub連携機能のドキュメントもあわせてご覧ください。
 
@@ -30,7 +30,9 @@ Publicationに連携可能なリポジトリは1つまでです。
 :::
 
 :::message
-連携するGitHubアカウント Organizationは分ける
+すでにGitHubアカウント/Organization配下のリポジトリにZennアカウントを連携している場合、さらに同じGitHubアカウント/OrganizationにPublicationを連携することはできません。これはGitHub Appsの仕様になります。
+
+Zenn運営としては、あらかじめ組織のGitHub Organizationを用意し、アカウント連携はGitHubアカウント配下のリポジトリを、Publicationに対する連携はOrganization配下のリポジトリをそれぞれ連携することを推奨しています。
 :::
 
 ## ディレクトリ構造
