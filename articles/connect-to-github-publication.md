@@ -6,13 +6,11 @@ topics: ["zenn"]
 published: true
 ---
 
-PublicationそのものにGitHubリポジトリを連携することができます。メンバー全員の記事を1つのGitHubリポジトリで管理することにより、組織の統制や統一されたCIの整備が柔軟に行えるようになります。
+[Publication Pro](https://zenn.dev/zenn/articles/publication-pro-features)では、PublicationそのものにGitHubリポジトリを連携することができます。メンバー全員の記事を1つのGitHubリポジトリで管理することにより、組織の統制や統一されたCIの整備が柔軟に行えるようになります。
 
-:::message
 Zennアカウントに対するGitHub連携機能のドキュメントもあわせてご覧ください。
 
 https://zenn.dev/zenn/articles/connect-to-github
-:::
 
 :::message
 本記事では、Publicationに連携したGitHubリポジトリを**Publicationリポジトリ**と呼称します。
@@ -43,7 +41,7 @@ Publicationリポジトリにおけるディレクトリは以下のように構
 .
 └── {username}
     ├── articles
-    │   ├── {slug}.md
+    │   └── {slug}.md
     └── images
         └── {image_file}
 ```
@@ -54,7 +52,7 @@ Publicationリポジトリにおけるディレクトリは以下のように構
 .
 ├── zenn
 │   ├── articles
-│   │   ├── publication-pro-features.md
+│   │   └── publication-pro-features.md
 │   └── images
 │       ├── example.png
 │       └── example.jpg
@@ -69,6 +67,24 @@ Publicationリポジトリにおけるディレクトリは以下のように構
 リポジトリのトップレベルにPublicationメンバーでないユーザー名のディレクトリを作成するとデプロイ時にエラーメッセージが表示されます。
 
 `_` 以外の記号など、ユーザー名として使用できない文字列が含まれている場合はユーザー名としてみなされません。例えば、トップレベルに `/.github` `/.scripts` などのディレクトリを作成した場合は `.` が含まれているためエラーは発生しません。
+:::
+
+### 記事内における画像の貼り付け
+
+記事において、 `{username}/images/` に配置した画像を貼り付ける場合は、ユーザー名ディレクトリ（`{username}/`）直下からの `/images` で始まるパスを指定します。
+
+例えば、 `zenn/images/example.png` を `zenn/articles/publication-pro-features.md` 内で使用する場合、
+
+```md
+![](/images/example.png)
+```
+
+と記述します。
+
+:::message
+記事の配置場所と異なるユーザー名ディレクトリ下の画像ファイルを貼り付けることはできません。
+
+例えば、`dyoshikawa/images/example.png` を `zenn/articles/publication-pro-features.md` 内で使用することはできません。
 :::
 
 ## Publicationリポジトリ以外からの投稿・更新の制限
