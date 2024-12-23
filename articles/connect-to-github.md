@@ -9,6 +9,12 @@ published: true
 
 Zennには[Web上のエディター](https://zenn.dev/zenn/articles/editor-guide)が用意されていますが、GitHubリポジトリと連携すればローカルのテキストエディターで執筆することもできます。
 
+:::message
+PublicationにGitHubリポジトリを連携したい場合は、次の記事をご確認ください。
+
+https://zenn.dev/zenn/connect-to-github-publication
+:::
+
 # GitHub連携時のイメージ
 
 GitHubリポジトリと連携した場合、投稿コンテンツの作成や更新はすべてリポジトリ内で行います。**登録したブランチに変更があると、zenn.devへ自動で同期（デプロイ）が行われます**。

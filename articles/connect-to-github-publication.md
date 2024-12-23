@@ -13,8 +13,8 @@ Zennアカウントに対するGitHub連携機能のドキュメントもあわ�
 https://zenn.dev/zenn/articles/connect-to-github
 
 :::message
-本記事では、Publicationに連携したGitHubリポジトリを**Publicationリポジトリ**と呼称します。
-また、Zennアカウントに連携したGitHubリポジトリを**アカウントリポジトリ**と呼称します。
+本記事では、Publicationに連携したGitHubリポジトリを**Publication連携リポジトリ**と呼称します。
+また、Zennアカウントに連携したGitHubリポジトリを**アカウント連携リポジトリ**と呼称します。
 :::
 
 ## GitHub連携の実施
@@ -35,7 +35,7 @@ Publicationに連携可能なリポジトリは1つまでです。
 
 ## ディレクトリ構造
 
-Publicationリポジトリにおけるディレクトリは以下のように構成してください。
+Publication連携リポジトリにおけるディレクトリは以下のように構成してください。
 
 ```tree
 .
@@ -46,7 +46,7 @@ Publicationリポジトリにおけるディレクトリは以下のように構
         └── {image_file}
 ```
 
-例えば、メンバー2人の記事をPublicationリポジトリで管理する場合、以下のようになります。
+例えば、メンバー2人の記事をPublication連携リポジトリで管理する場合、以下のようになります。
 
 ```tree
 .
@@ -87,18 +87,41 @@ Publicationリポジトリにおけるディレクトリは以下のように構
 例えば、`dyoshikawa/images/example.png` を `zenn/articles/publication-pro-features.md` 内で使用することはできません。
 :::
 
-## Publicationリポジトリ以外からの投稿・更新の制限
+## Publication連携リポジトリ以外からの投稿・更新の制限
 
-設定により、Publicationリポジトリ以外からの投稿・更新を禁止することができます。
+設定により、Publication連携リポジトリ以外からの投稿・更新を禁止することができます。
 
-リポジトリ設定（`https://zenn.dev/dashboard/publications/{publication_name}/deploys?tab=repo_settings`）より、「このリポジトリ以外からの投稿・更新を禁止する」を有効化することで、Publicationリポジトリ以外からの記事投稿や更新が行えないようになります。
+リポジトリ設定（`https://zenn.dev/dashboard/publications/{publication_name}/deploys?tab=repo_settings`）より、「このリポジトリ以外からの投稿・更新を禁止する」を有効化することで、Publication連携リポジトリ以外からの記事投稿や更新が行えないようになります。
 
 ![](/images/articles/publication-pro-features/publication-github-repository-enforced.png)
 
 組織のポリシーに応じて本設定をご検討ください。
 
-## 記事をPublicationリポジトリに移行する
+## 記事をPublication連携リポジトリに移行する
+
+記事をPublication連携リポジトリに移行する手順について紹介します。
+
+移行実施前に、記事をPublicationに紐づける方法については次の記事をご確認ください。
+
+https://zenn.dev/zenn/articles/how-to-use-publication
 
 ### Web上のエディターで作成した記事の移行
 
-### アカウントリポジトリからの記事の移行
+[Web上のエディター](https://zenn.dev/zenn/articles/editor-guide)で作成した記事をPublication連携リポジトリに管理を移行したい場合、以下の手順を実施します。
+
+1. （設定が有効になっている場合）「このリポジトリ以外からの投稿・更新を禁止する」を一時的に無効化する
+2. 移行したい記事が対象のPublicationに紐づいていることを確認（Publicationに紐づいていない場合は、Webエディター上の操作で紐づける）
+3. 移行したい記事ファイル（と画像ファイル）をPublication連携リポジトリに作成する
+4. Publication連携リポジトリにおいて記事デプロイを実施する
+5. （1の手順で設定を無効にした場合）「このリポジトリ以外からの投稿・更新を禁止する」を再度有効化する
+
+### アカウント連携リポジトリからの記事の移行
+
+アカウント連携リポジトリからPublication連携リポジトリに記事の管理を移行したい場合、以下の手順を実施します。
+
+1. （設定が有効になっている場合）「このリポジトリ以外からの投稿・更新を禁止する」を一時的に無効化する
+2. 移行したい記事が対象のPublicationに紐づいていることを確認（Publicationに紐づいていない場合は、アカウント連携リポジトリ内の `publication_name` frontmatterを編集して紐づける）
+3. 移行したい記事ファイル（と画像ファイル）をPublication連携リポジトリに移動する
+4. Publication連携リポジトリにおいて記事デプロイを実施する
+5. （1の手順で設定を無効にした場合）「このリポジトリ以外からの投稿・更新を禁止する」を再度有効化する
+
