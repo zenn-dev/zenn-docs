@@ -1,5 +1,5 @@
 ---
-title: "GitHubリポジトリでZennのコンテンツを管理する"
+title: "アカウントにGitHubリポジトリを連携してZennのコンテンツを管理する"
 emoji: "😸"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]

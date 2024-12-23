@@ -96,33 +96,13 @@ Publicationのダッシュボードページから「記事の管理」ページ
 
 ### PublicationのGitHub連携機能
 
-PublicationそのものにGitHubリポジトリを連携することができます。
+PublicationそのものにGitHubリポジトリを連携することができます。メンバー全員の記事を1つのGitHubリポジトリで管理することにより、組織の統制や統一されたCIの整備が柔軟に行えるようになります。
 
-:::message
-通常のGitHub連携機能のドキュメントもあわせてご覧ください。
+組織のポリシーに応じて連携したGitHubリポジトリ以外からの投稿・更新を制限することも可能です。
 
-https://zenn.dev/zenn/articles/connect-to-github
-:::
+詳細は次の記事をご確認ください。
 
-#### GitHub連携の実施
-
-メンバー全員の記事を1つのGitHubリポジトリで管理することにより、組織の統制や統一されたCIの整備が柔軟に行えるようになります。
-
-PublicationのダッシュボードよりGitHub連携が可能です（`https://zenn.dev/dashboard/publications/{publication_name}/deploys`）。
-
-![](/images/articles/publication-pro-features/publication-github-connect.png)
-
-連携先のPublicationが正しいことをよくご確認いただき、連携を実施してください。
-
-#### GitHubリポジトリ以外からの投稿・更新の制限
-
-設定により、GitHubリポジトリ以外からの投稿・更新を禁止することができます。
-
-リポジトリ設定（`https://zenn.dev/dashboard/publications/{publication_name}/deploys?tab=repo_settings`）より、「このリポジトリ以外からの投稿・更新を禁止する」を有効化することで、Publicationに連携したGitHubリポジトリ以外からの記事投稿や更新が行えないようになります。
-
-![](/images/articles/publication-pro-features/publication-github-repository-enforced.png)
-
-組織のポリシーに応じて設定をご検討ください。
+https://zenn.dev/zenn/connect-to-github-publication
 
 ### 統計ダッシュボード機能
 
