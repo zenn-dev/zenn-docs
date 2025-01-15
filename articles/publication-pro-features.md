@@ -94,6 +94,16 @@ Publicationのダッシュボードページから「記事の管理」ページ
 
 ![](/images/articles/publication-pro-features/review-page-status.png)
 
+### PublicationのGitHub連携機能
+
+PublicationそのものにGitHubリポジトリを連携することができます。メンバー全員の記事を1つのGitHubリポジトリで管理することにより、組織のポリシーに沿った統制やCIの整備が柔軟に行えるようになります。
+
+組織のポリシーに応じて連携したGitHubリポジトリ以外からの投稿・更新を制限することも可能です。
+
+詳細は次の記事をご確認ください。
+
+https://zenn.dev/zenn/connect-to-github-publication
+
 ### 統計ダッシュボード機能
 
 Publicationに投稿された記事全体の表示回数や、投稿ごとの表示回数を閲覧できます。
