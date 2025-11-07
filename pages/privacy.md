@@ -73,6 +73,6 @@ E-mail: zenn-support@classmethod.jp
 
 ## 附則
 
-- 2025年11月10日 改訂（[diff](https://github.com/zenn-dev/zenn-docs/pull/76/files)）
+- 2025年11月10日 改訂（[diff](https://github.com/zenn-dev/zenn-docs/pull/97/files)）
 - 2024年01月22日 改訂（[diff](https://github.com/zenn-dev/zenn-docs/pull/75/files)）
 - 2020年09月01日 制定
