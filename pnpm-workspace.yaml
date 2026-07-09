@@ -1,0 +1,8 @@
+packages: []
+
+minimumReleaseAge: 2880
+
+# git hooks の設置は package.json の prepare スクリプトで行うため、
+# simple-git-hooks 自身の postinstall は不要
+ignoredBuiltDependencies:
+  - simple-git-hooks
