@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://json.schemastore.org/dependabot-2.0.json
+version: 2
+updates:
+  # Automatic updates for npm dependencies (pnpm)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    cooldown:
+      default-days: 5
+    open-pull-requests-limit: 1
+    groups:
+      dependencies:
+        patterns:
+          - "*"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "automated"
+    assignees:
+      - "cm-dyoshikawa"
+      - "cm-wada-yusuke"
+      - "cm-igarashi-ryosuke"
