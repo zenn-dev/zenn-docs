@@ -11,10 +11,10 @@
     "zenn-cli": "latest"
   },
   "devDependencies": {
-    "@secretlint/secretlint-rule-preset-recommend": "^13.0.2",
-    "lint-staged": "^17.0.8",
-    "secretlint": "^13.0.2",
-    "simple-git-hooks": "^2.13.1"
+    "@secretlint/secretlint-rule-preset-recommend": "^13.0.6",
+    "lint-staged": "^17.6.0",
+    "secretlint": "^13.0.6",
+    "simple-git-hooks": "^2.14.0"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
