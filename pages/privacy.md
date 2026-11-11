@@ -62,7 +62,7 @@ Google AnalyticsによるCookieの利用を停止する方法は[Google Analytic
 
 本サービスでは、コンテンツを安定して配信し、不正なアクセスを防ぐため、Cloudflare, Inc.が提供するCDNおよびセキュリティサービスを利用しています。本サービスへのアクセスはCloudflareのネットワークを経由し、IPアドレスやブラウザの種類などのアクセスに関する情報がCloudflareに送信されます。Cloudflareにおける情報の取扱いおよび国際間の情報転送については[Cloudflareのプライバシーポリシー](https://www.cloudflare.com/privacypolicy/)をご覧ください。
 
-本サービスでは、お問い合わせへの対応などについて、Google LLCおよびAmazon Web Services, Incが提供するAIサービス（Gemini Enterprise Agent Platform、Amazon Bedrockなど）を利用しています。また、コンテンツの翻訳、要約、検索、モデレーション、スパムや不正利用の検知などについて、そのほかの第三者が提供するAIサービスも利用することがあります。その場合、日本、アメリカ合衆国または欧州連合（EU）加盟国に所在する事業者が提供しているAIサービスを利用します。本サービス提供においては、AIモデルの学習に利用されないAIサービスを利用します。
+本サービスでは、お問い合わせへの対応などについて、Google LLCおよびAmazon Web Services, Inc.が提供するAIサービス（Gemini Enterprise Agent Platform、Amazon Bedrockなど）を利用しています。また、コンテンツの翻訳、要約、検索、モデレーション、スパムや不正利用の検知などについて、そのほかの第三者が提供するAIサービスも利用することがあります。その場合、日本、アメリカ合衆国または欧州連合（EU）加盟国に所在する事業者が提供しているAIサービスを利用します。本サービス提供においては、AIモデルの学習に利用されないAIサービスを利用します。
 
 ## 第6条（個人情報の訂正および削除）
 
