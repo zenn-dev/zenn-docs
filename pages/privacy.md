@@ -60,7 +60,7 @@
 また、本サービスでは、利用状況を把握し、サービスを改善するためにGoogle LLCが提供するGoogle Analyticsを利用しています。Google Analyticsは閲覧ページ毎のアクセス回数や滞在時間、利用環境や地域毎の利用者数、流入経路や検索語句等を分析する機能を提供しています。Google AnalyticsにはCookieなどデバイスに記録されている識別子や、IPアドレス、閲覧したサイトのURLやアプリの画面名等の情報が送信されます。Google Analyticsに関する詳しい説明は[Google のサービスを使用するサイトやアプリから収集した情報Googleによる使用](https://policies.google.com/technologies/ads?gl=jp)をご覧ください。
 Google AnalyticsによるCookieの利用を停止する方法は[Google Analyticsオプトアウトアドオン](https://tools.google.com/dlpage/gaoptout?hl=ja)をご確認ください。
 
-本サービスでは、コンテンツを安定して配信し、不正なアクセスを防ぐため、Cloudflare, Inc.が提供するCDNおよびセキュリティサービスを利用しています。本サービスへのアクセスはCloudflareのネットワークを経由し、IPアドレスやブラウザの種類などのアクセスに関する情報がCloudflareに送信されます。Cloudflareにおける情報の取扱いおよび国際間の情報転送については[Cloudflareのプライバシーポリシー](https://www.cloudflare.com/privacypolicy/)をご覧ください。
+本サービスでは、コンテンツを安定して配信し、不正なアクセスを防ぐため、Cloudflare, Inc.が提供するCDN、ストレージおよびセキュリティサービスを利用しています。本サービスへのアクセスはCloudflareのネットワークを経由し、IPアドレスやブラウザの種類などのアクセスに関する情報がCloudflareに送信されます。Cloudflareにおける情報の取扱いおよび国際間の情報転送については[Cloudflareのプライバシーポリシー](https://www.cloudflare.com/privacypolicy/)をご覧ください。
 
 本サービスでは、お問い合わせへの対応などについて、Google LLCおよびAmazon Web Services, Inc.が提供するAIサービス（Gemini Enterprise Agent Platform、Amazon Bedrockなど）を利用しています。また、コンテンツの翻訳、要約、検索、モデレーション、スパムや不正利用の検知などについて、そのほかの第三者が提供するAIサービスも利用することがあります。その場合、日本、アメリカ合衆国または欧州連合（EU）加盟国に所在する事業者が提供しているAIサービスを利用します。本サービス提供においては、AIモデルの学習に利用されないAIサービスを利用します。
 
